@@ -1,0 +1,158 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "type": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "value": "Sound",
+                    "@_nodeID": "N15db097795d947308706bef3c09ef377"
+                }
+            },
+            "title": "Ediphone School Record No. 2&#13;\n90 WPM-1",
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N8b1f70669a63401cbc66b8e3d2f194da"
+                }
+            },
+            "rights": "Public domain in the USA.",
+            "hasFormat": [
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 5844535,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N26417696e64348118da7a7bcf4488333"
+                            }
+                        },
+                        "modified": {
+                            "#text": "2003-11-24T13:23:48",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10238"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10238/10238-m/10238-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "modified": {
+                            "#text": "2020-12-19T17:45:20",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nfa092a69f08f4f64ace760ba1e43d825"
+                            }
+                        },
+                        "extent": {
+                            "#text": 21358,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10238"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10238/10238-m/10238-m-readme.txt"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10238"
+                        },
+                        "extent": {
+                            "#text": 4590,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nc4ca3c77bd534c5cb9f6e8a811adbb64"
+                            }
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:25.879443",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10238.rdf"
+                    }
+                }
+            ],
+            "description": "Recorded c. 1943.",
+            "downloads": {
+                "#text": 1,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "subject": [
+                {
+                    "Description": {
+                        "value": "HF",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "@_nodeID": "N7f40c82c0e7d4685800e561eea1d6aa9"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Dictation recordings",
+                        "@_nodeID": "Nadaed14981334366b98c7408291d2939"
+                    }
+                }
+            ],
+            "license": {
+                "@_resource": "license"
+            },
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "publisher": "Project Gutenberg",
+            "@_about": "ebooks/10238"
+        },
+        "Work": {
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "@_about": ""
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

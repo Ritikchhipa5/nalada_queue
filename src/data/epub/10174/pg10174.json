@@ -1,0 +1,206 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "hasFormat": [
+                {
+                    "file": {
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N0a3818d70ed544cca43033b40eaf5dbe"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10174"
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:22.843599",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "extent": {
+                            "#text": 5989,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10174.rdf"
+                    }
+                },
+                {
+                    "file": {
+                        "modified": {
+                            "#text": "2003-11-21T19:03:34",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10174"
+                        },
+                        "extent": {
+                            "#text": 3111395,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N9597a1d56df84ee4837e23a36afe16c2"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10174/10174-m/10174-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 21380,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10174"
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T16:43:17",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N9d88a70e1cbe4328b99217571fb694bb"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10174/10174-m/10174-m-readme.txt"
+                    }
+                }
+            ],
+            "cmp": {
+                "agent": {
+                    "webpage": [
+                        {
+                            "@_resource": "https://en.wikipedia.org/wiki/Gioachino_Rossini"
+                        },
+                        {
+                            "@_resource": "https://it.wikipedia.org/wiki/Gioachino_Rossini"
+                        }
+                    ],
+                    "name": "Rossini, Gioacchino",
+                    "alias": "Rossini, Gioacchino Antonio",
+                    "deathdate": {
+                        "#text": 1868,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "birthdate": {
+                        "#text": 1792,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "@_about": "2009/agents/25659"
+                }
+            },
+            "subject": [
+                {
+                    "Description": {
+                        "value": "M",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "@_nodeID": "Na7e9670432a347d99085c7f874d1b82d"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Operas -- Excerpts",
+                        "@_nodeID": "N843b1382bb9b4186ac796d59a6c3ae7f"
+                    }
+                }
+            ],
+            "downloads": {
+                "#text": 12,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "Nfe575baea94c4992a2611ba24811b85b"
+                }
+            },
+            "type": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "value": "Sound",
+                    "@_nodeID": "Nf5ad9241ef964fe3ade8cc793efc27cb"
+                }
+            },
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "publisher": "Project Gutenberg",
+            "prf": {
+                "agent": {
+                    "name": "Sodero's Band",
+                    "@_about": "2009/agents/3351"
+                }
+            },
+            "bookshelf": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "2009/pgterms/Bookshelf"
+                    },
+                    "value": "Opera",
+                    "@_nodeID": "N56fe9064c50c481cb0ca9645dda32a38"
+                }
+            },
+            "description": "Recorded 1911?",
+            "rights": "Public domain in the USA.",
+            "license": {
+                "@_resource": "license"
+            },
+            "title": "William Tell Overture, Pt. 2",
+            "@_about": "ebooks/10174"
+        },
+        "Work": {
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "@_about": ""
+        },
+        "Description": [
+            {
+                "description": "it.wikipedia",
+                "@_about": "https://it.wikipedia.org/wiki/Gioachino_Rossini"
+            },
+            {
+                "description": "en.wikipedia",
+                "@_about": "https://en.wikipedia.org/wiki/Gioachino_Rossini"
+            }
+        ],
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

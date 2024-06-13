@@ -1,0 +1,557 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "publisher": "Project Gutenberg",
+            "license": {
+                "@_resource": "license"
+            },
+            "issued": {
+                "#text": "1997-08-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "rights": "Public domain in the USA.",
+            "downloads": {
+                "#text": 61,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "creator": {
+                "agent": {
+                    "name": "Dante Alighieri",
+                    "birthdate": {
+                        "#text": 1265,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "deathdate": {
+                        "#text": 1321,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "alias": "Alighieri, Dante",
+                    "webpage": [
+                        {
+                            "@_resource": "https://it.wikipedia.org/wiki/Dante_Alighieri"
+                        },
+                        {
+                            "@_resource": "https://en.wikipedia.org/wiki/Dante_Alighieri"
+                        }
+                    ],
+                    "@_about": "2009/agents/507"
+                }
+            },
+            "trl": {
+                "agent": {
+                    "name": "Longfellow, Henry Wadsworth",
+                    "birthdate": {
+                        "#text": 1807,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "deathdate": {
+                        "#text": 1882,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "alias": "Longfellow, Henry W.",
+                    "webpage": {
+                        "@_resource": "https://en.wikipedia.org/wiki/Henry_Wadsworth_Longfellow"
+                    },
+                    "@_about": "2009/agents/16"
+                }
+            },
+            "title": "Divine Comedy, Longfellow's Translation, Paradise",
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "Nd612e229977448d9b528cd6c65cb4fd9"
+                }
+            },
+            "subject": [
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Epic poetry, Italian -- Translations into English",
+                        "@_nodeID": "Nd3f8923bf86145b58733b665114f7f94"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Italian poetry -- To 1400 -- Translations into English",
+                        "@_nodeID": "N55264f4822844d68859bf3fc3c299d4a"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "value": "PQ",
+                        "@_nodeID": "Nb65a9aaa26e941bcb0e8758dc2543e82"
+                    }
+                }
+            ],
+            "bookshelf": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "2009/pgterms/Bookshelf"
+                    },
+                    "value": "Italy",
+                    "@_nodeID": "Nc41be2d777884a538d01d1755c996de9"
+                }
+            },
+            "hasFormat": [
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/1003"
+                        },
+                        "extent": {
+                            "#text": 340387,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2021-04-08T15:52:22",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/html",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N4cfc433c14aa4b349d1d27d5cc63c3f7"
+                            }
+                        },
+                        "@_about": "https://www.gutenberg.org/files/1003/1003-h/1003-h.htm"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/1003"
+                        },
+                        "extent": {
+                            "#text": 101462,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2021-04-08T15:59:01",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": [
+                            {
+                                "Description": {
+                                    "memberOf": {
+                                        "@_resource": "http://purl.org/dc/terms/IMT"
+                                    },
+                                    "value": {
+                                        "#text": "text/html",
+                                        "@_datatype": "http://purl.org/dc/terms/IMT"
+                                    },
+                                    "@_nodeID": "N7107191af98a4aefa167ecb23736d936"
+                                }
+                            },
+                            {
+                                "Description": {
+                                    "memberOf": {
+                                        "@_resource": "http://purl.org/dc/terms/IMT"
+                                    },
+                                    "value": {
+                                        "#text": "application/zip",
+                                        "@_datatype": "http://purl.org/dc/terms/IMT"
+                                    },
+                                    "@_nodeID": "N29983163738442de99b11ae2c9753498"
+                                }
+                            }
+                        ],
+                        "@_about": "https://www.gutenberg.org/files/1003/1003-h.zip"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/1003"
+                        },
+                        "extent": {
+                            "#text": 329569,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2022-09-01T09:08:57.381829",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/html",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N08e4c2b4edfd4e92ae87d67fa049c585"
+                            }
+                        },
+                        "@_about": "https://www.gutenberg.org/ebooks/1003.html.images"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/1003"
+                        },
+                        "extent": {
+                            "#text": 202112,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2022-09-01T09:09:05.062952",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "application/epub+zip",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Ncc5d4373ec8f4775876611fba2450628"
+                            }
+                        },
+                        "@_about": "https://www.gutenberg.org/ebooks/1003.epub.images"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/1003"
+                        },
+                        "extent": {
+                            "#text": 202112,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2022-09-01T09:08:57.969859",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "application/epub+zip",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N449e85840b5542fe9c572d6f069b1479"
+                            }
+                        },
+                        "@_about": "https://www.gutenberg.org/ebooks/1003.epub.noimages"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/1003"
+                        },
+                        "extent": {
+                            "#text": 366604,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2022-09-01T09:09:11.117987",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "application/x-mobipocket-ebook",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Ne98b153191d74defa643fedd40455276"
+                            }
+                        },
+                        "@_about": "https://www.gutenberg.org/ebooks/1003.kindle.images"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/1003"
+                        },
+                        "extent": {
+                            "#text": 366604,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2022-09-01T09:09:04.013886",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "application/x-mobipocket-ebook",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N301a1e9c8a70438bb99a30fbfd8a24f0"
+                            }
+                        },
+                        "@_about": "https://www.gutenberg.org/ebooks/1003.kindle.noimages"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/1003"
+                        },
+                        "extent": {
+                            "#text": 199288,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2022-09-01T09:09:11.745952",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "application/epub+zip",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N2d7abb4766114ad99e60bd691c90d810"
+                            }
+                        },
+                        "@_about": "https://www.gutenberg.org/ebooks/1003.epub3.images"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/1003"
+                        },
+                        "extent": {
+                            "#text": 406682,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2022-09-01T09:09:15.721986",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "application/x-mobipocket-ebook",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N3741ed7eba00472281e8d7987a28c2e9"
+                            }
+                        },
+                        "@_about": "https://www.gutenberg.org/ebooks/1003.kf8.images"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/1003"
+                        },
+                        "extent": {
+                            "#text": 249746,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2021-04-08T15:58:12",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/plain; charset=utf-8",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Naf8ea95e82744a2682cd501200547647"
+                            }
+                        },
+                        "@_about": "https://www.gutenberg.org/files/1003/1003-0.txt"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/1003"
+                        },
+                        "extent": {
+                            "#text": 94304,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2021-04-08T15:58:38",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": [
+                            {
+                                "Description": {
+                                    "memberOf": {
+                                        "@_resource": "http://purl.org/dc/terms/IMT"
+                                    },
+                                    "value": {
+                                        "#text": "text/plain; charset=utf-8",
+                                        "@_datatype": "http://purl.org/dc/terms/IMT"
+                                    },
+                                    "@_nodeID": "N1813af3ba2fb4136ab418ef92491302d"
+                                }
+                            },
+                            {
+                                "Description": {
+                                    "memberOf": {
+                                        "@_resource": "http://purl.org/dc/terms/IMT"
+                                    },
+                                    "value": {
+                                        "#text": "application/zip",
+                                        "@_datatype": "http://purl.org/dc/terms/IMT"
+                                    },
+                                    "@_nodeID": "N43acda711cc34df9a60e4afd24660a15"
+                                }
+                            }
+                        ],
+                        "@_about": "https://www.gutenberg.org/files/1003/1003-0.zip"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/1003"
+                        },
+                        "extent": {
+                            "#text": 14137,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2022-09-01T09:09:15.907985",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Ncf6af468a849407989f4644d3aa9c7ce"
+                            }
+                        },
+                        "@_about": "https://www.gutenberg.org/ebooks/1003.rdf"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/1003"
+                        },
+                        "extent": {
+                            "#text": 18642,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2022-09-01T09:09:04.423904",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "image/jpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N680950be4e3f4709ab06e938a9c526a8"
+                            }
+                        },
+                        "@_about": "https://www.gutenberg.org/cache/epub/1003/pg1003.cover.medium.jpg"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/1003"
+                        },
+                        "extent": {
+                            "#text": 4035,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2022-09-01T09:09:04.246886",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "image/jpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N6b3e68fd68fc4a81a2f963a303adb47d"
+                            }
+                        },
+                        "@_about": "https://www.gutenberg.org/cache/epub/1003/pg1003.cover.small.jpg"
+                    }
+                }
+            ],
+            "@_about": "ebooks/1003"
+        },
+        "Work": {
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            https://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "@_about": ""
+        },
+        "Description": [
+            {
+                "description": "en.wikipedia",
+                "@_about": "https://en.wikipedia.org/wiki/Henry_Wadsworth_Longfellow"
+            },
+            {
+                "description": "it.wikipedia",
+                "@_about": "https://it.wikipedia.org/wiki/Dante_Alighieri"
+            },
+            {
+                "description": "en.wikipedia",
+                "@_about": "https://en.wikipedia.org/wiki/Dante_Alighieri"
+            }
+        ],
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

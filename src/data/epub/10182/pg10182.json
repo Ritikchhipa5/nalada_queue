@@ -1,0 +1,186 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "subject": [
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Piano trios",
+                        "@_nodeID": "N5b15cc2667bb4ff8ab63e2754d24be92"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "value": "M",
+                        "@_nodeID": "N0eab17aa39684762b9cbee032b5fc985"
+                    }
+                }
+            ],
+            "downloads": {
+                "#text": 17,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "cmp": {
+                "agent": {
+                    "birthdate": {
+                        "#text": 1797,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "deathdate": {
+                        "#text": 1828,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "name": "Schubert, Franz",
+                    "alias": "Schubert, Franz Peter",
+                    "webpage": {
+                        "@_resource": "http://en.wikipedia.org/wiki/Franz_Schubert"
+                    },
+                    "@_about": "2009/agents/1819"
+                }
+            },
+            "type": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "value": "Sound",
+                    "@_nodeID": "N67d56e3ef4cd43ff9378124cb680250d"
+                }
+            },
+            "hasFormat": [
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10182"
+                        },
+                        "extent": {
+                            "#text": 21383,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nfb8189a0ef4342e398f52c999effea38"
+                            }
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T16:44:31",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10182/10182-m/10182-m-readme.txt"
+                    }
+                },
+                {
+                    "file": {
+                        "modified": {
+                            "#text": "2003-11-21T19:52:04",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10182"
+                        },
+                        "extent": {
+                            "#text": 2734605,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N3616b9f50e7a4200986e59b291615f96"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10182/10182-m/10182-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 5523,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N1b601be046824856ada6c266a22333b4"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10182"
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:22.940599",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10182.rdf"
+                    }
+                }
+            ],
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "description": "Recorded May 23, 1928.",
+            "title": "Trio No. 1 in B Flat, Pt. 1&#13;\n1st Movement, allegro moderato, Op. 99",
+            "rights": "Public domain in the USA.",
+            "license": {
+                "@_resource": "license"
+            },
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "Nd0c251636a8c4ffc8a047bb723825217"
+                }
+            },
+            "creator": {
+                "agent": {
+                    "name": "New York Trio",
+                    "@_about": "2009/agents/3359"
+                }
+            },
+            "publisher": "Project Gutenberg",
+            "@_about": "ebooks/10182"
+        },
+        "Work": {
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "@_about": ""
+        },
+        "Description": {
+            "description": "Wikipedia",
+            "@_about": "http://en.wikipedia.org/wiki/Franz_Schubert"
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

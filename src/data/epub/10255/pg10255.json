@@ -1,0 +1,184 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "publisher": "Project Gutenberg",
+            "title": "La Paloma",
+            "prf": {
+                "agent": {
+                    "name": "Banda de Zapadores de Mexico",
+                    "@_about": "2009/agents/3412"
+                }
+            },
+            "hasFormat": [
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10255"
+                        },
+                        "extent": {
+                            "#text": 21332,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T18:40:57",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N847e4afb88d5425eb5a29bddbd241cf3"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10255/10255-m/10255-m-readme.txt"
+                    }
+                },
+                {
+                    "file": {
+                        "modified": {
+                            "#text": "2003-11-24T15:42:31",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "extent": {
+                            "#text": 1587307,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10255"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N460db47626334c58a104d8762abfa3cb"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10255/10255-m/10255-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 5446,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10255"
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:26.090445",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N3ad1b45291604e18b2148b84e6e5b073"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10255.rdf"
+                    }
+                }
+            ],
+            "downloads": {
+                "#text": 46,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "subject": [
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Songs -- Instrumental settings",
+                        "@_nodeID": "N5018b5449be0424ca45cd5a50354936d"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "value": "M",
+                        "@_nodeID": "N7089165cf4f847ef991bac46f4565c06"
+                    }
+                }
+            ],
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "rights": "Public domain in the USA.",
+            "cmp": {
+                "agent": {
+                    "alias": [
+                        "Yradier, Sebastian",
+                        "Iradier, Sebastián",
+                        "Yradier, S. de (Sebastián)",
+                        "Salaverri, Sebastián de Iradier y"
+                    ],
+                    "deathdate": {
+                        "#text": 1865,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "name": "Yradier, Sebastián",
+                    "birthdate": {
+                        "#text": 1809,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "@_about": "2009/agents/40684"
+                }
+            },
+            "description": "Recorded July 1905.",
+            "type": {
+                "Description": {
+                    "value": "Sound",
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "@_nodeID": "Nb5d7a0bf68cb45088b795c1a5cabe3aa"
+                }
+            },
+            "license": {
+                "@_resource": "license"
+            },
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "es",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N9556a6a6daa64451a01abfb0512d22aa"
+                }
+            },
+            "@_about": "ebooks/10255"
+        },
+        "Work": {
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "@_about": ""
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

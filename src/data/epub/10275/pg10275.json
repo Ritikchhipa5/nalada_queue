@@ -1,0 +1,236 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "subject": [
+                {
+                    "Description": {
+                        "value": "Operas -- Excerpts",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "@_nodeID": "N55e14b5fe99b4b7fa861a06109c73cd2"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "value": "M",
+                        "@_nodeID": "N3f8dc68005c845588aa277f802d98ba4"
+                    }
+                }
+            ],
+            "lbt": {
+                "agent": {
+                    "deathdate": {
+                        "#text": 1918,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "birthdate": {
+                        "#text": 1842,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "name": "Boito, Arrigo",
+                    "@_about": "2009/agents/25664"
+                }
+            },
+            "prf": [
+                {
+                    "agent": {
+                        "name": "Koralek, Paola",
+                        "webpage": {
+                            "@_resource": "https://hu.wikipedia.org/wiki/Koralek_Paula"
+                        },
+                        "@_about": "2009/agents/3431"
+                    }
+                },
+                {
+                    "agent": {
+                        "name": "Benedetti, Preste",
+                        "@_about": "2009/agents/25663"
+                    }
+                }
+            ],
+            "hasFormat": [
+                {
+                    "file": {
+                        "modified": {
+                            "#text": "2020-12-24T05:09:26.381445",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10275"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N54ba25cbd4cb4adca81cb5fb3518251c"
+                            }
+                        },
+                        "extent": {
+                            "#text": 6701,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10275.rdf"
+                    }
+                },
+                {
+                    "file": {
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N8b4e8845b0ce440ea91e0f96c0a1dfd8"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10275"
+                        },
+                        "extent": {
+                            "#text": 4698491,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2003-11-25T14:51:34",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10275/10275-m/10275-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10275"
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T18:43:41",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Ne7f8ccae01db47a59921d91ee6f00810"
+                            }
+                        },
+                        "extent": {
+                            "#text": 21314,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10275/10275-m/10275-m-readme.txt"
+                    }
+                }
+            ],
+            "license": {
+                "@_resource": "license"
+            },
+            "title": "La Gioconda",
+            "rights": "Public domain in the USA.",
+            "type": {
+                "Description": {
+                    "value": "Sound",
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "@_nodeID": "Nce9e1046bd6f49eda01d3c9e5a530b0c"
+                }
+            },
+            "bookshelf": [
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "2009/pgterms/Bookshelf"
+                        },
+                        "value": "IT Musica",
+                        "@_nodeID": "N105f8c385f4647d2ad49dbeee6fd5137"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": "Opera",
+                        "memberOf": {
+                            "@_resource": "2009/pgterms/Bookshelf"
+                        },
+                        "@_nodeID": "N793a82a00f4444baa481dbc139b584b6"
+                    }
+                }
+            ],
+            "description": "Recorded c. July 1911.",
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "it",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "Nf64d2b90965242efa42e6f6895c127c3"
+                }
+            },
+            "downloads": {
+                "#text": 31,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "cmp": {
+                "agent": {
+                    "birthdate": {
+                        "#text": 1834,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "webpage": {
+                        "@_resource": "http://en.wikipedia.org/wiki/Amilcare_Ponchielli"
+                    },
+                    "deathdate": {
+                        "#text": 1886,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "name": "Ponchielli, Amilcare",
+                    "@_about": "2009/agents/25662"
+                }
+            },
+            "publisher": "Project Gutenberg",
+            "@_about": "ebooks/10275"
+        },
+        "Work": {
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "@_about": ""
+        },
+        "Description": [
+            {
+                "description": "Wikipedia",
+                "@_about": "http://en.wikipedia.org/wiki/Amilcare_Ponchielli"
+            },
+            {
+                "description": "hu.wikipedia",
+                "@_about": "https://hu.wikipedia.org/wiki/Koralek_Paula"
+            }
+        ],
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

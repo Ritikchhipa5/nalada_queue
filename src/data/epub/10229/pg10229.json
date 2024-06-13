@@ -1,0 +1,198 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "title": "My South Polar Expedition",
+            "creator": {
+                "agent": {
+                    "deathdate": {
+                        "#text": 1922,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "birthdate": {
+                        "#text": 1874,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "alias": "Shackleton, E. H. (Ernest Henry), Sir",
+                    "name": "Shackleton, Ernest Henry, Sir",
+                    "webpage": {
+                        "@_resource": "http://en.wikipedia.org/wiki/Ernest_Shackleton"
+                    },
+                    "@_about": "2009/agents/1734"
+                }
+            },
+            "downloads": {
+                "#text": 18,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "publisher": "Project Gutenberg",
+            "license": {
+                "@_resource": "license"
+            },
+            "description": "Recorded March 30, 1910.",
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "hasFormat": [
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10229"
+                        },
+                        "modified": {
+                            "#text": "2003-11-24T10:53:43",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nccff8127d7dc419dbdcf4787311910d7"
+                            }
+                        },
+                        "extent": {
+                            "#text": 2683823,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10229/10229-m/10229-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10229"
+                        },
+                        "extent": {
+                            "#text": 21386,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nb33af53e1c1f4413aae92b0c30f9af06"
+                            }
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T17:44:06",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10229/10229-m/10229-m-readme.txt"
+                    }
+                },
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 5864,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:25.763483",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10229"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N7375bdb26281430a9d2da5b4b55be12b"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10229.rdf"
+                    }
+                }
+            ],
+            "subject": [
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "value": "G",
+                        "@_nodeID": "N5ea05436e54548b3a08eed8a9f446042"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "British Antarctic Expedition (1907-1909)",
+                        "@_nodeID": "Nef9fb2f350d74eceb06b3ee085c7cd4b"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Antarctica -- Discovery and exploration -- British",
+                        "@_nodeID": "N1cf909b918ed4c3aa0d5dac0f084deaa"
+                    }
+                }
+            ],
+            "type": {
+                "Description": {
+                    "value": "Sound",
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "@_nodeID": "N25c448c4a8994a76805efa45bb6062c1"
+                }
+            },
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N9c5d11c5c2714e838036e7a0d96749be"
+                }
+            },
+            "rights": "Public domain in the USA.",
+            "bookshelf": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "2009/pgterms/Bookshelf"
+                    },
+                    "value": "Travel",
+                    "@_nodeID": "Na2ffdcc8a49d45888a5f91bc87072ff8"
+                }
+            },
+            "@_about": "ebooks/10229"
+        },
+        "Work": {
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "@_about": ""
+        },
+        "Description": {
+            "description": "Wikipedia",
+            "@_about": "http://en.wikipedia.org/wiki/Ernest_Shackleton"
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

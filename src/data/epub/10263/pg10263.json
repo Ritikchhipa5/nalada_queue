@@ -1,0 +1,190 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "Work": {
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "@_about": ""
+        },
+        "ebook": {
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "license": {
+                "@_resource": "license"
+            },
+            "subject": [
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "value": "M",
+                        "@_nodeID": "N1ce6197a22ee44ada33e9ec2ee420306"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Folk songs, French -- Canada",
+                        "@_nodeID": "Ndd518d4570544e3595532e76fed66f3e"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Folk music -- Canada",
+                        "@_nodeID": "N314a56787e684c588f9cc1641d84dd8b"
+                    }
+                }
+            ],
+            "title": "Envoyons d'l'avant nos gens!&#13;\nFolklore du Canada",
+            "prf": {
+                "agent": {
+                    "deathdate": {
+                        "#text": 1930,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "name": "Marchand, Charles",
+                    "birthdate": {
+                        "#text": 1890,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "@_about": "2009/agents/3420"
+                }
+            },
+            "hasFormat": [
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10263"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N92f9c6188f8c492a9332b4aac119f08e"
+                            }
+                        },
+                        "extent": {
+                            "#text": 5565,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:26.179445",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10263.rdf"
+                    }
+                },
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 2423643,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nbdb3d50c4d834c5f9c319b764bdbd561"
+                            }
+                        },
+                        "modified": {
+                            "#text": "2003-11-24T16:54:50",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10263"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10263/10263-m/10263-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 21401,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T18:42:02",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10263"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N0fa46d3b5e7c4069b3035e8d7f8c7c29"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10263/10263-m/10263-m-readme.txt"
+                    }
+                }
+            ],
+            "downloads": {
+                "#text": 5,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "fr",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N85f2744efe634c038cfe0306ae2d5541"
+                }
+            },
+            "type": {
+                "Description": {
+                    "value": "Sound",
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "@_nodeID": "N8f9a66bdbcfc49dab8668497f28943d6"
+                }
+            },
+            "publisher": "Project Gutenberg",
+            "rights": "Public domain in the USA.",
+            "description": "Recorded May 12, 1925.",
+            "bookshelf": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "2009/pgterms/Bookshelf"
+                    },
+                    "value": "FR Chansons",
+                    "@_nodeID": "N1221319e636c4380936c724539ae2c3a"
+                }
+            },
+            "@_about": "ebooks/10263"
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

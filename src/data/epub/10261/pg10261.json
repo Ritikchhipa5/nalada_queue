@@ -1,0 +1,174 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "type": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "value": "Sound",
+                    "@_nodeID": "N85ab8500139e443fa2c224de129e1e89"
+                }
+            },
+            "publisher": "Project Gutenberg",
+            "subject": [
+                {
+                    "Description": {
+                        "value": "Violin and piano music",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "@_nodeID": "N63d9377029b841019aa61c848fb473bd"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": "Habaneras",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "@_nodeID": "Na9a6b419ba8645889b1cd751bcf65a17"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "value": "M",
+                        "@_nodeID": "N59fce6b009b740bfba96cc15e5b36f08"
+                    }
+                }
+            ],
+            "hasFormat": [
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 5113,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N45fe2473c9744ac88a4a1b4759e20a4c"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10261"
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:26.155456",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10261.rdf"
+                    }
+                },
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 3095095,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N17d83a2f86b54932bc21e34750bc6e4f"
+                            }
+                        },
+                        "modified": {
+                            "#text": "2003-11-24T16:47:49",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10261"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10261/10261-m/10261-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10261"
+                        },
+                        "extent": {
+                            "#text": 21321,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T18:41:45",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nd88faaab0bf54dbe8a24b0f5454f1671"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10261/10261-m/10261-m-readme.txt"
+                    }
+                }
+            ],
+            "rights": "Public domain in the USA.",
+            "title": "La Bella Cubano&#13;\nHabenera",
+            "license": {
+                "@_resource": "license"
+            },
+            "description": "Recorded on September 18, 1924.",
+            "downloads": {
+                "#text": 7,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "prf": {
+                "agent": {
+                    "name": "Trio Cubano",
+                    "alias": "Cubano, Trio",
+                    "@_about": "2009/agents/3418"
+                }
+            },
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "es",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "Na62acc547fcc4bd3b9b4fa8afd119ef9"
+                }
+            },
+            "@_about": "ebooks/10261"
+        },
+        "Work": {
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "@_about": ""
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

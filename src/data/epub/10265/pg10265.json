@@ -1,0 +1,180 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "title": "Anssin Jukka ja Härmän Häät",
+            "prf": {
+                "agent": {
+                    "alias": "Pyykkonen, Otto",
+                    "birthdate": {
+                        "#text": 1898,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "deathdate": {
+                        "#text": 1970,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "webpage": {
+                        "@_resource": "https://fi.wikipedia.org/wiki/Otto_Pyykk%C3%B6nen"
+                    },
+                    "name": "Pyykkönen, Otto",
+                    "@_about": "2009/agents/3422"
+                }
+            },
+            "hasFormat": [
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10265"
+                        },
+                        "extent": {
+                            "#text": 21351,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N79ce1dbc9e234434ade55f5b69da8977"
+                            }
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T18:42:20",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10265/10265-m/10265-m-readme.txt"
+                    }
+                },
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 2195124,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N85dce4bc0190435da78176e65741f632"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10265"
+                        },
+                        "modified": {
+                            "#text": "2003-11-24T17:00:29",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10265/10265-m/10265-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nee0786f9ab6444f9b2ee620be2baf3fd"
+                            }
+                        },
+                        "extent": {
+                            "#text": 5331,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10265"
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:26.201447",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10265.rdf"
+                    }
+                }
+            ],
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "fi",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N7aa8ae5f90fe453087eb9ce2ae76eb6c"
+                }
+            },
+            "description": "Recorded March 8, 1928.",
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "type": {
+                "Description": {
+                    "value": "Sound",
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "@_nodeID": "N3428d80c90f74dc29acf426fd979ac2d"
+                }
+            },
+            "license": {
+                "@_resource": "license"
+            },
+            "subject": [
+                {
+                    "Description": {
+                        "value": "Folk songs, Finnish",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "@_nodeID": "N6c399568f9e44667bbabcb54e3b7b081"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": "M",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "@_nodeID": "Nc4402189d7a9404a8c0c52af8b3c7753"
+                    }
+                }
+            ],
+            "rights": "Public domain in the USA.",
+            "publisher": "Project Gutenberg",
+            "downloads": {
+                "#text": 9,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "@_about": "ebooks/10265"
+        },
+        "Work": {
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "@_about": ""
+        },
+        "Description": {
+            "description": "fi.wikipedia",
+            "@_about": "https://fi.wikipedia.org/wiki/Otto_Pyykk%C3%B6nen"
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

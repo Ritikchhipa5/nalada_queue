@@ -1,0 +1,217 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "Work": {
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "@_about": ""
+        },
+        "ebook": {
+            "publisher": "Project Gutenberg",
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "license": {
+                "@_resource": "license"
+            },
+            "prf": [
+                {
+                    "agent": {
+                        "birthdate": {
+                            "#text": 1861,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "alias": [
+                            "Lincoln, Chester",
+                            "Treadway, Deacon",
+                            "Harlan, Byron George",
+                            "Stebbins, Cy",
+                            "Pippins, Cyrus",
+                            "Terry, Bert",
+                            "Holland, Byron"
+                        ],
+                        "webpage": {
+                            "@_resource": "https://en.wikipedia.org/wiki/Byron_G._Harlan"
+                        },
+                        "name": "Harlan, Byron G.",
+                        "deathdate": {
+                            "#text": 1936,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "@_about": "2009/agents/3365"
+                    }
+                },
+                {
+                    "agent": {
+                        "name": "Stanley, Frank C.",
+                        "birthdate": {
+                            "#text": 1868,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "alias": [
+                            "Grinsted, William Stanley",
+                            "Grinsted, W. S."
+                        ],
+                        "deathdate": {
+                            "#text": 1910,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "@_about": "2009/agents/35658"
+                    }
+                }
+            ],
+            "type": {
+                "Description": {
+                    "value": "Sound",
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "@_nodeID": "N79fee2d88d2642fcb865873ccd90dd33"
+                }
+            },
+            "hasFormat": [
+                {
+                    "file": {
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N7e4b656ab19947b786f74659618abe26"
+                            }
+                        },
+                        "extent": {
+                            "#text": 1632447,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10188"
+                        },
+                        "modified": {
+                            "#text": "2003-11-21T20:21:36",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10188/10188-m/10188-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "modified": {
+                            "#text": "2020-12-19T16:45:20",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "extent": {
+                            "#text": 21375,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10188"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Ndb01e8dcf23a442eb1217aa91fba4125"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10188/10188-m/10188-m-readme.txt"
+                    }
+                },
+                {
+                    "file": {
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nd90bedd7ee2247d4817fe368787492fa"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10188"
+                        },
+                        "extent": {
+                            "#text": 6401,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:23.012599",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10188.rdf"
+                    }
+                }
+            ],
+            "title": "Two Rubes at the Vaudeville",
+            "description": "Recorded July 1904.",
+            "rights": "Public domain in the USA.",
+            "subject": [
+                {
+                    "Description": {
+                        "value": "Humorous recitations",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "@_nodeID": "N74566d54fb7048c7a246a5f6167d00bf"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": "PS",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "@_nodeID": "N5a2cdd895eb44c9bbdc9299c50d7c6ae"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": "Vaudeville",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "@_nodeID": "N84a7a334404a47e4815ad4588010f9c5"
+                    }
+                }
+            ],
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N8c62adb5f3c344b6b0eb62d59d29da59"
+                }
+            },
+            "downloads": {
+                "#text": 3,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "@_about": "ebooks/10188"
+        },
+        "Description": {
+            "description": "en.wikipedia",
+            "@_about": "https://en.wikipedia.org/wiki/Byron_G._Harlan"
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

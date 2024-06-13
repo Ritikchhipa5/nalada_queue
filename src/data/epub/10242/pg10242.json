@@ -1,0 +1,164 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "rights": "Public domain in the USA.",
+            "license": {
+                "@_resource": "license"
+            },
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "subject": [
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Sound -- Recording and reproducing",
+                        "@_nodeID": "N590eb81262324f128fb5a0522c5e73a8"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": "M",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "@_nodeID": "N288b8220f2a6429ea2bb84add3003390"
+                    }
+                }
+            ],
+            "downloads": {
+                "#text": 3,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "publisher": "Project Gutenberg",
+            "hasFormat": [
+                {
+                    "file": {
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N5c60c2c756434fcda04acd271e1fabe1"
+                            }
+                        },
+                        "extent": {
+                            "#text": 1985727,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2003-11-24T13:48:31",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10242"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10242/10242-m/10242-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nd1ebce160b9149aaa0cdc40497b3a1d1"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10242"
+                        },
+                        "extent": {
+                            "#text": 4908,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:25.921444",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10242.rdf"
+                    }
+                },
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 21315,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10242"
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T17:46:02",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nf921bdfb39a14b76a72e000a3607924c"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10242/10242-m/10242-m-readme.txt"
+                    }
+                }
+            ],
+            "type": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "value": "Sound",
+                    "@_nodeID": "N9aee347afc354b82893586a009b46bd5"
+                }
+            },
+            "description": "Recorded December 16, 1925, at Columbia Street Studio, Edison Laboratory, West Orange, New Jersey, with an experimental 125 ft long recording horn.",
+            "creator": {
+                "agent": {
+                    "name": "Losey's Orchestra",
+                    "@_about": "2009/agents/3401"
+                }
+            },
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N7afa9200f37b47d19f1be68520e6daff"
+                }
+            },
+            "title": "Plaque No. 6&#13;\nExp. No. 27, Recorder #20",
+            "@_about": "ebooks/10242"
+        },
+        "Work": {
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "@_about": ""
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

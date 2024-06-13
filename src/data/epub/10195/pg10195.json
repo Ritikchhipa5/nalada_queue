@@ -1,0 +1,173 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "title": "Lonesome Road Blues",
+            "description": "Recorded September 22, 1924.",
+            "hasFormat": [
+                {
+                    "file": {
+                        "modified": {
+                            "#text": "2003-11-21T20:48:40",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "extent": {
+                            "#text": 2470664,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10195"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N7f07d75fdab34e13a917103f542c2eae"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10195/10195-m/10195-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10195"
+                        },
+                        "extent": {
+                            "#text": 21345,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N837c18240d9540adb1ddca9d041da79b"
+                            }
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T16:46:21",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10195/10195-m/10195-m-readme.txt"
+                    }
+                },
+                {
+                    "file": {
+                        "modified": {
+                            "#text": "2020-12-24T05:09:23.093606",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N0a2a3e4494684fe5925eda38d23a1fb3"
+                            }
+                        },
+                        "extent": {
+                            "#text": 5022,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10195"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10195.rdf"
+                    }
+                }
+            ],
+            "creator": {
+                "agent": {
+                    "name": "Blue Ridge Duo",
+                    "@_about": "2009/agents/3371"
+                }
+            },
+            "subject": [
+                {
+                    "Description": {
+                        "value": "Folk songs, English -- United States",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "@_nodeID": "N3b1ecd64aad541a08e0300d509fe2396"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": "Old-time music",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "@_nodeID": "N06094d84738e486aaf9c401da8aeac20"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "value": "M",
+                        "@_nodeID": "Ndc56668945a842bf8f7c2f1075ab4a4b"
+                    }
+                }
+            ],
+            "downloads": {
+                "#text": 42,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N1dedee3dcc9944e593fb8518a9deb1a4"
+                }
+            },
+            "license": {
+                "@_resource": "license"
+            },
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "type": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "value": "Sound",
+                    "@_nodeID": "N532e594ffbea46d59ec350dd2b7f6fce"
+                }
+            },
+            "publisher": "Project Gutenberg",
+            "rights": "Public domain in the USA.",
+            "@_about": "ebooks/10195"
+        },
+        "Work": {
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "@_about": ""
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

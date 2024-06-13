@@ -1,0 +1,195 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "hasFormat": [
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 2715797,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nc146d13d138443518ff066bff70de407"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10295"
+                        },
+                        "modified": {
+                            "#text": "2003-11-25T12:31:42",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10295/10295-m/10295-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 5773,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10295"
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:26.720448",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N1a7012c0518840d1a41bbc0b37dfb961"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10295.rdf"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10295"
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T18:46:29",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "extent": {
+                            "#text": 21371,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N5d0ce1a7b7984d0ebd23e5b1e0984d61"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10295/10295-m/10295-m-readme.txt"
+                    }
+                }
+            ],
+            "license": {
+                "@_resource": "license"
+            },
+            "subject": [
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Spirituals (Songs)",
+                        "@_nodeID": "Nb87e0367fbb9458b808ebb0b710d7bbb"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Folk songs -- United States",
+                        "@_nodeID": "N3af8fc86e8404ddaa6bd56231b9c3e39"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Sacred vocal quartets",
+                        "@_nodeID": "N66877ea560e4434ebd909f6a3b8de4cc"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "value": "M",
+                        "@_nodeID": "N79594d2b053a43898b79603f5e4e9f00"
+                    }
+                }
+            ],
+            "downloads": {
+                "#text": 5,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "title": "The Band of Gideon",
+            "description": "Recorded c. 1912.",
+            "publisher": "Project Gutenberg",
+            "type": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "value": "Sound",
+                    "@_nodeID": "Ne336ba45ff9b4ec3a9d9673d2652cc8d"
+                }
+            },
+            "creator": {
+                "agent": {
+                    "alias": [
+                        "Jubilee Quartet",
+                        "Fisk Jubilee Singers",
+                        "Fisk Quartette Singers",
+                        "Fisk University. Jubilee Quartet"
+                    ],
+                    "webpage": {
+                        "@_resource": "http://en.wikipedia.org/wiki/Fisk_Jubilee_Singers"
+                    },
+                    "name": "Jubilee Singers",
+                    "@_about": "2009/agents/3447"
+                }
+            },
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N52d51272887f426db19fc76e68c88e3f"
+                }
+            },
+            "rights": "Public domain in the USA.",
+            "@_about": "ebooks/10295"
+        },
+        "Work": {
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "@_about": ""
+        },
+        "Description": {
+            "description": "en.wikipedia",
+            "@_about": "http://en.wikipedia.org/wiki/Fisk_Jubilee_Singers"
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

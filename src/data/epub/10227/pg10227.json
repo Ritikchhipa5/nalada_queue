@@ -1,0 +1,179 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "subject": [
+                {
+                    "Description": {
+                        "value": "Tolstoy, Leo, graf, 1828-1910 -- Anecdotes",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "@_nodeID": "N47cc9408089844429ed4a818d0d23318"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": "PG",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "@_nodeID": "N7c51f84699de4d2a9a9f09779ab0770c"
+                    }
+                }
+            ],
+            "hasFormat": [
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 683261,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nb84777970b3142f8b5df00d9e5db79bf"
+                            }
+                        },
+                        "modified": {
+                            "#text": "2003-11-24T10:46:07",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10227"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10227/10227-m/10227-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N8d048c144e5146f7a005eb4eb410df40"
+                            }
+                        },
+                        "extent": {
+                            "#text": 21349,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T17:43:52",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10227"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10227/10227-m/10227-m-readme.txt"
+                    }
+                },
+                {
+                    "file": {
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N1ead75e47bab47a1a9943e9c4e0b1194"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10227"
+                        },
+                        "extent": {
+                            "#text": 5277,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:25.739444",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10227.rdf"
+                    }
+                }
+            ],
+            "downloads": {
+                "#text": 3,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "description": "Recorded November 5, 1908.",
+            "rights": "Public domain in the USA.",
+            "unk": {
+                "agent": {
+                    "name": "Wanamaker, John",
+                    "deathdate": {
+                        "#text": 1922,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "webpage": {
+                        "@_resource": "http://en.wikipedia.org/wiki/John_Wanamaker"
+                    },
+                    "birthdate": {
+                        "#text": 1838,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "@_about": "2009/agents/3393"
+                }
+            },
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N3c8b637ac51948c7adbab65ad1b62bfd"
+                }
+            },
+            "type": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "value": "Sound",
+                    "@_nodeID": "N7a8871dc37194e92bbfbd6a4c6c9675b"
+                }
+            },
+            "title": "Tolstoy's Plower Story",
+            "publisher": "Project Gutenberg",
+            "license": {
+                "@_resource": "license"
+            },
+            "@_about": "ebooks/10227"
+        },
+        "Work": {
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "@_about": ""
+        },
+        "Description": {
+            "description": "Wikipedia",
+            "@_about": "http://en.wikipedia.org/wiki/John_Wanamaker"
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

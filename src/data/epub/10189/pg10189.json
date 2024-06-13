@@ -1,0 +1,173 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "rights": "Public domain in the USA.",
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N59737f858522489d89efd5666e0837a3"
+                }
+            },
+            "license": {
+                "@_resource": "license"
+            },
+            "creator": {
+                "agent": {
+                    "name": "Edison Vaudeville Company",
+                    "@_about": "2009/agents/3366"
+                }
+            },
+            "hasFormat": [
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10189"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N9e9d4834df644b74b5a7f73cafe4da0f"
+                            }
+                        },
+                        "extent": {
+                            "#text": 1517717,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2003-11-21T20:24:38",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10189/10189-m/10189-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nd10cc9a7fe754bd78c8e80ecd1ad876e"
+                            }
+                        },
+                        "extent": {
+                            "#text": 5016,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10189"
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:23.023600",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10189.rdf"
+                    }
+                },
+                {
+                    "file": {
+                        "modified": {
+                            "#text": "2020-12-19T16:45:27",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N57f2fb3a38bc4b3a9a76131dab088005"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10189"
+                        },
+                        "extent": {
+                            "#text": 21392,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10189/10189-m/10189-m-readme.txt"
+                    }
+                }
+            ],
+            "subject": [
+                {
+                    "Description": {
+                        "value": "PS",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "@_nodeID": "N0b32904187cb4585ae0b5a25c0f1c040"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": "Humorous recitations",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "@_nodeID": "N4f2e2ce5dd2d4f479279b86678eecdc1"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": "Vaudeville",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "@_nodeID": "N6917a8eeee6e464688bdca8db68c40f0"
+                    }
+                }
+            ],
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "type": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "value": "Sound",
+                    "@_nodeID": "N5b8a09ce14274d1894a96edac8d499ab"
+                }
+            },
+            "publisher": "Project Gutenberg",
+            "downloads": {
+                "#text": 3,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "description": "Recorded November 1907.",
+            "title": "Three Rubes Seeing New York",
+            "@_about": "ebooks/10189"
+        },
+        "Work": {
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "@_about": ""
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

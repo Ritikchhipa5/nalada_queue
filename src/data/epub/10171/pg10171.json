@@ -1,0 +1,170 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N9db4ad6c7c944587bf630fc5cfcf9684"
+                }
+            },
+            "subject": [
+                {
+                    "Description": {
+                        "value": "Songs, Neapolitan -- Instrumental settings",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "@_nodeID": "N376d68b463f14b6f82f9ec888f235060"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "value": "M",
+                        "@_nodeID": "Ndf944bbf03c74b41bc38a329a0bde189"
+                    }
+                }
+            ],
+            "publisher": "Project Gutenberg",
+            "license": {
+                "@_resource": "license"
+            },
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "hasFormat": [
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 21346,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10171"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N1e24085df89546599ca6c5807910d6c8"
+                            }
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T16:42:50",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10171/10171-m/10171-m-readme.txt"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10171"
+                        },
+                        "extent": {
+                            "#text": 1539346,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2003-11-21T18:45:14",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N3a2e8612cf2a46b6b0ecae16cbffdddb"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10171/10171-m/10171-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10171"
+                        },
+                        "extent": {
+                            "#text": 4984,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:22.804600",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nc459e72023e24ff589aa72ffe067f00c"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10171.rdf"
+                    }
+                }
+            ],
+            "prf": {
+                "agent": {
+                    "name": "His Majesty's Irish Guards Band",
+                    "@_about": "2009/agents/3348"
+                }
+            },
+            "title": "Santa Lucia",
+            "downloads": {
+                "#text": 14,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "arr": {
+                "agent": {
+                    "name": "Lotter, Adolph",
+                    "@_about": "2009/agents/37072"
+                }
+            },
+            "type": {
+                "Description": {
+                    "value": "Sound",
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "@_nodeID": "Nc0e92cfa8c724f99aa883c3a17433c36"
+                }
+            },
+            "rights": "Public domain in the USA.",
+            "description": "Recorded July 1912.",
+            "@_about": "ebooks/10171"
+        },
+        "Work": {
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "@_about": ""
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

@@ -1,0 +1,174 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "hasFormat": [
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10300"
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:26.780472",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "extent": {
+                            "#text": 5116,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Ne6299ff2d03249ed90df0539e2c31e9d"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10300.rdf"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10300"
+                        },
+                        "modified": {
+                            "#text": "2003-11-26T11:14:12",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "extent": {
+                            "#text": 1790749,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nc0b6639fc7a74371bf17ccc855cca15f"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10300/10300-m/10300-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 21431,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10300"
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T19:40:07",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nb5f95c8bb36348d89fb5b3b6b7932ec5"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10300/10300-m/10300-m-readme.txt"
+                    }
+                }
+            ],
+            "title": "Snyder, Does Your Mother Know You're Out?",
+            "subject": [
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "value": "M",
+                        "@_nodeID": "N7c883a6d52424026bfb860c8312f1cd7"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": "Songs with piano",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "@_nodeID": "Nfb8b31e23b0d4b378f11974c212d5882"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": "Yodels",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "@_nodeID": "N3cde56e1c9154fb280d6fe92abe21d19"
+                    }
+                }
+            ],
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N66ee1a7be8b647e6897f71c8b6d88156"
+                }
+            },
+            "type": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "value": "Sound",
+                    "@_nodeID": "N16bbcf4c5ba74253ac0bc539fda925b5"
+                }
+            },
+            "description": "Recorded c. July 1899.",
+            "prf": {
+                "agent": {
+                    "name": "Watson, George P.",
+                    "alias": "Hubbard, George",
+                    "@_about": "2009/agents/3451"
+                }
+            },
+            "license": {
+                "@_resource": "license"
+            },
+            "publisher": "Project Gutenberg",
+            "downloads": {
+                "#text": 9,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "rights": "Public domain in the USA.",
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "@_about": "ebooks/10300"
+        },
+        "Work": {
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "@_about": ""
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

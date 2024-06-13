@@ -1,0 +1,171 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "cmp": {
+                "agent": {
+                    "name": "Petraushas, Mikas",
+                    "@_about": "2009/agents/40658"
+                }
+            },
+            "prf": {
+                "agent": {
+                    "name": "Suildauskas, Juozas",
+                    "alias": "Suildauskas‏, Jozas‏",
+                    "@_about": "2009/agents/3421"
+                }
+            },
+            "publisher": "Project Gutenberg",
+            "rights": "Public domain in the USA.",
+            "type": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "value": "Sound",
+                    "@_nodeID": "N17104c68413b4584b1c4d549e786801c"
+                }
+            },
+            "license": {
+                "@_resource": "license"
+            },
+            "title": "Skamba Kankliah Ir Trimintai",
+            "downloads": {
+                "#text": 10,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "lt",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "Nd8ccaf270e674626aa0032cfea5b345f"
+                }
+            },
+            "description": "Recorded on May 22, 1925.",
+            "subject": [
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Folk songs, Lithuanian",
+                        "@_nodeID": "Nc4e1fba272324283b7be881ed5e1de26"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": "M",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "@_nodeID": "N7a883f58eb114b7a8e2f5070a6dfb24a"
+                    }
+                }
+            ],
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "hasFormat": [
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10264"
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:26.190445",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N432b63a593f54430b3a26c7e95f8a6d6"
+                            }
+                        },
+                        "extent": {
+                            "#text": 5042,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10264.rdf"
+                    }
+                },
+                {
+                    "file": {
+                        "modified": {
+                            "#text": "2020-12-19T18:42:11",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "extent": {
+                            "#text": 21417,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10264"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N6a8f89adc6fa47d0a89eed28137544f1"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10264/10264-m/10264-m-readme.txt"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10264"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N9826db5a51ae48ccb3d14d20b7ebc775"
+                            }
+                        },
+                        "extent": {
+                            "#text": 2291046,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2003-11-24T16:58:24",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10264/10264-m/10264-m-001.mp3"
+                    }
+                }
+            ],
+            "@_about": "ebooks/10264"
+        },
+        "Work": {
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "@_about": ""
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

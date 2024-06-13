@@ -1,0 +1,185 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "publisher": "Project Gutenberg",
+            "type": {
+                "Description": {
+                    "value": "Sound",
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "@_nodeID": "N0d0320f5d3384c0f8ce9ccb0c6c0b0b5"
+                }
+            },
+            "hasFormat": [
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10296"
+                        },
+                        "modified": {
+                            "#text": "2003-11-25T12:35:54",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "extent": {
+                            "#text": 3045567,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nbbc231f6e0624ed1875b2b6c12f3cbeb"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10296/10296-m/10296-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nf9943fdf59b24de1b8e59e938abf8b3c"
+                            }
+                        },
+                        "extent": {
+                            "#text": 21395,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10296"
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T18:46:39",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10296/10296-m/10296-m-readme.txt"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10296"
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:26.732450",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "extent": {
+                            "#text": 5460,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Ndcef8a3806e3423e9a0d597dd09de746"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10296.rdf"
+                    }
+                }
+            ],
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "creator": {
+                "agent": {
+                    "alias": [
+                        "Fisk Jubilee Singers",
+                        "Fisk University. Jubilee Quartet",
+                        "Fisk Quartette Singers",
+                        "Jubilee Quartet"
+                    ],
+                    "webpage": {
+                        "@_resource": "http://en.wikipedia.org/wiki/Fisk_Jubilee_Singers"
+                    },
+                    "name": "Jubilee Singers",
+                    "@_about": "2009/agents/3447"
+                }
+            },
+            "rights": "Public domain in the USA.",
+            "downloads": {
+                "#text": 18,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "subject": [
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Spirituals (Songs)",
+                        "@_nodeID": "Nd7544bf374314173913514aaec72c408"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "value": "M",
+                        "@_nodeID": "Nac49a0f01e6842fc8f28d9cd95b13709"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": "African Americans -- Songs and music",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "@_nodeID": "Nf7d971eafed946fa855c863ffad58940"
+                    }
+                }
+            ],
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "Nc93b2e0a59b84da1b44ebd191cec22f8"
+                }
+            },
+            "license": {
+                "@_resource": "license"
+            },
+            "title": "Swing Low, Sweet Chariot",
+            "@_about": "ebooks/10296"
+        },
+        "Work": {
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "@_about": ""
+        },
+        "Description": {
+            "description": "en.wikipedia",
+            "@_about": "http://en.wikipedia.org/wiki/Fisk_Jubilee_Singers"
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

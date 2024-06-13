@@ -1,0 +1,180 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "subject": [
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Nursery rhymes, American",
+                        "@_nodeID": "N186a83c6f5c8488fb1a73cee651f4c73"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "value": "PS",
+                        "@_nodeID": "N517c6743cc574fb581c2c50b878c6277"
+                    }
+                }
+            ],
+            "hasFormat": [
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10137"
+                        },
+                        "extent": {
+                            "#text": 212117,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2003-11-19T15:12:04",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N41c58520a5904972b65b35e8baa8c364"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10137/10137-m/10137-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 21344,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nbce818544457415cb142fa6c3aba7298"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10137"
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T15:46:20",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10137/10137-m/10137-m-readme.txt"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10137"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N36bb435f919c491698fa83d3eb0e7688"
+                            }
+                        },
+                        "extent": {
+                            "#text": 5448,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:22.089596",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10137.rdf"
+                    }
+                }
+            ],
+            "publisher": "Project Gutenberg",
+            "type": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "value": "Sound",
+                    "@_nodeID": "N983457ad2f5044c791faf724d517d8af"
+                }
+            },
+            "license": {
+                "@_resource": "license"
+            },
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N8537364fcb0845f59eb2748957ee739b"
+                }
+            },
+            "creator": {
+                "agent": {
+                    "alias": "Edison, Thomas Alva",
+                    "birthdate": {
+                        "#text": 1847,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "deathdate": {
+                        "#text": 1931,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "webpage": {
+                        "@_resource": "http://en.wikipedia.org/wiki/Thomas_Edison"
+                    },
+                    "name": "Edison, Thomas A. (Thomas Alva)",
+                    "@_about": "2009/agents/3325"
+                }
+            },
+            "rights": "Public domain in the USA.",
+            "title": "Mary Had a Little Lamb&#13;\nRecording taken from Movietone Production news film",
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "downloads": {
+                "#text": 21,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "description": "Recorded August 12, 1927 at the Golden Jubilee of the Phonograph Ceremony, held in Glenmont (Edison's Home), West Orange, New Jersey.",
+            "@_about": "ebooks/10137"
+        },
+        "Work": {
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "@_about": ""
+        },
+        "Description": {
+            "description": "Wikipedia",
+            "@_about": "http://en.wikipedia.org/wiki/Thomas_Edison"
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

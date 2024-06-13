@@ -1,0 +1,179 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "subject": [
+                {
+                    "Description": {
+                        "value": "Ragtime music",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "@_nodeID": "Nb573c14254f24710917ad30a647f9614"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": "M",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "@_nodeID": "Nf548b8f3ed2a4a518232b3a73a52d703"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Popular music -- 1901-1910",
+                        "@_nodeID": "N8489834f3d694997b731ad73ed54eb6b"
+                    }
+                }
+            ],
+            "downloads": {
+                "#text": 14,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "rights": "Public domain in the USA.",
+            "description": "Recorded c. 1903.",
+            "hasFormat": [
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 21340,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T18:45:14",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nf24e52241d794b57a29a1ddb21e56ac7"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10285"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10285/10285-m/10285-m-readme.txt"
+                    }
+                },
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 1490132,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N382121959ab740ae867d82d7949151c6"
+                            }
+                        },
+                        "modified": {
+                            "#text": "2003-11-25T15:58:40",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10285"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10285/10285-m/10285-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10285"
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:26.506447",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "extent": {
+                            "#text": 5247,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N29a6e587c38445998cd0cef02d53f555"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10285.rdf"
+                    }
+                }
+            ],
+            "type": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "value": "Sound",
+                    "@_nodeID": "N92a38c4932284734adbf13753d067735"
+                }
+            },
+            "cmp": {
+                "agent": {
+                    "name": "Stone, Fred S.",
+                    "@_about": "2009/agents/40646"
+                }
+            },
+            "creator": {
+                "agent": {
+                    "name": "Peerless Orchestra (Edison studio ensemble)",
+                    "@_about": "2009/agents/3440"
+                }
+            },
+            "license": {
+                "@_resource": "license"
+            },
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N745a1b6a09a54e94b14c400f55ff81da"
+                }
+            },
+            "publisher": "Project Gutenberg",
+            "title": "Ma Rag Time Baby",
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "@_about": "ebooks/10285"
+        },
+        "Work": {
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "@_about": ""
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

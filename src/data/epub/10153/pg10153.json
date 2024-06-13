@@ -1,0 +1,164 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N37c415d89bcc4d8bbc85f26986945b81"
+                }
+            },
+            "hasFormat": [
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 4795,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10153"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N7c6f38a598da46a0a952c55b236ff3b2"
+                            }
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:22.473598",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10153.rdf"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10153"
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T16:40:28",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N00f21e8af6934bb6b4e8af8aac0f2acb"
+                            }
+                        },
+                        "extent": {
+                            "#text": 21419,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10153/10153-m/10153-m-readme.txt"
+                    }
+                },
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 844385,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2003-11-20T20:30:38",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N8ae0e95e248b43e695bd1641a0b9db30"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10153"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10153/10153-m/10153-m-001.mp3"
+                    }
+                }
+            ],
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "publisher": "Project Gutenberg",
+            "creator": {
+                "agent": {
+                    "name": "Lenord, Frank",
+                    "@_about": "2009/agents/3332"
+                }
+            },
+            "type": {
+                "Description": {
+                    "value": "Sound",
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "@_nodeID": "N02d86ba8580b47f1971a8edd7a9e8b4b"
+                }
+            },
+            "title": "Voice Trial - Kinetophone Actor Audition",
+            "license": {
+                "@_resource": "license"
+            },
+            "subject": [
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Auditions",
+                        "@_nodeID": "N8a7df3c27d034537a2faf26ebee77a12"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": "PN",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "@_nodeID": "N3d5b6bd24bb24a8cbc332cea7d10e96f"
+                    }
+                }
+            ],
+            "description": "Recorded c. 1913, at Edison Motion Picture Film Studio, Bronx, NY.",
+            "rights": "Public domain in the USA.",
+            "downloads": {
+                "#text": 4,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "@_about": "ebooks/10153"
+        },
+        "Work": {
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "@_about": ""
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

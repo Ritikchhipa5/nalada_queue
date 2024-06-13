@@ -1,0 +1,227 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "Work": {
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "@_about": ""
+        },
+        "ebook": {
+            "license": {
+                "@_resource": "license"
+            },
+            "prf": {
+                "agent": {
+                    "name": "Wadsworth, Frank W.",
+                    "@_about": "2009/agents/3525"
+                }
+            },
+            "issued": {
+                "#text": "2003-12-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "cmp": {
+                "agent": {
+                    "name": "Baines, William",
+                    "birthdate": {
+                        "#text": 1899,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "deathdate": {
+                        "#text": 1922,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "webpage": {
+                        "@_resource": "http://en.wikipedia.org/wiki/William_Baines"
+                    },
+                    "@_about": "2009/agents/31868"
+                }
+            },
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N0baa826b93774e99b433c49a8b62d9b3"
+                }
+            },
+            "hasFormat": [
+                {
+                    "file": {
+                        "modified": {
+                            "#text": "2003-12-08T15:37:05",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N763d054fe0f84a608073a21dd53b195b"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10413"
+                        },
+                        "extent": {
+                            "#text": 3469521,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10413/10413-m/10413-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10413"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nd8c8aad30dfb475984738814c3a769b7"
+                            }
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:33.727475",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "extent": {
+                            "#text": 6540,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10413.rdf"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10413"
+                        },
+                        "extent": {
+                            "#text": 3230066,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2003-12-08T15:38:17",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": [
+                            {
+                                "Description": {
+                                    "memberOf": {
+                                        "@_resource": "http://purl.org/dc/terms/IMT"
+                                    },
+                                    "value": {
+                                        "#text": "application/zip",
+                                        "@_datatype": "http://purl.org/dc/terms/IMT"
+                                    },
+                                    "@_nodeID": "N1d9e86c8755f42d196f84ac291226013"
+                                }
+                            },
+                            {
+                                "Description": {
+                                    "value": {
+                                        "#text": "text/plain",
+                                        "@_datatype": "http://purl.org/dc/terms/IMT"
+                                    },
+                                    "memberOf": {
+                                        "@_resource": "http://purl.org/dc/terms/IMT"
+                                    },
+                                    "@_nodeID": "N944c96d64ea84ac288fd499a75212a66"
+                                }
+                            }
+                        ],
+                        "@_about": "http://www.gutenberg.org/files/10413/10413-m.zip"
+                    }
+                },
+                {
+                    "file": {
+                        "modified": {
+                            "#text": "2020-12-19T21:42:14",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10413"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N6d3a3c49462c4aa5a55089e665ba8bd0"
+                            }
+                        },
+                        "extent": {
+                            "#text": 21457,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10413/10413-m/10413-m-readme.txt"
+                    }
+                }
+            ],
+            "downloads": {
+                "#text": 28,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "publisher": "Project Gutenberg",
+            "subject": [
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Popular instrumental music -- 1911-1920",
+                        "@_nodeID": "Nb18640abb46041e386e13791d86d2921"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": "M",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "@_nodeID": "N94add8a3d84943a7a79b321d46384c68"
+                    }
+                }
+            ],
+            "title": "Fancy Little Nancy",
+            "rights": "Public domain in the USA.",
+            "type": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "value": "Sound",
+                    "@_nodeID": "Nf13021da19274297b73f5f6ead22ab36"
+                }
+            },
+            "description": "Recorded September 9, 1919 in New York City.",
+            "@_about": "ebooks/10413"
+        },
+        "Description": {
+            "description": "en.wikipedia",
+            "@_about": "http://en.wikipedia.org/wiki/William_Baines"
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

@@ -1,0 +1,164 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "license": {
+                "@_resource": "license"
+            },
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "type": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "value": "Sound",
+                    "@_nodeID": "N9c0905d71c6e48688594886c3b8d59cc"
+                }
+            },
+            "creator": {
+                "agent": {
+                    "name": "Kennedy, Frank",
+                    "@_about": "2009/agents/3363"
+                }
+            },
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "Ne2da55b8ace44145b2e6172655f33c06"
+                }
+            },
+            "hasFormat": [
+                {
+                    "file": {
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N93f34952e2484e64b69de81b210e9006"
+                            }
+                        },
+                        "modified": {
+                            "#text": "2003-11-21T20:12:10",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10186"
+                        },
+                        "extent": {
+                            "#text": 1912061,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10186/10186-m/10186-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10186"
+                        },
+                        "extent": {
+                            "#text": 21385,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N65393642d786492e8cfbb25ccb04a927"
+                            }
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T16:45:05",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10186/10186-m/10186-m-readme.txt"
+                    }
+                },
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 4757,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:22.987600",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N6b02bf9936954f2f8f7dbb0e4d4f262e"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10186"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10186.rdf"
+                    }
+                }
+            ],
+            "downloads": {
+                "#text": 1,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "publisher": "Project Gutenberg",
+            "subject": [
+                {
+                    "Description": {
+                        "value": "PS",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "@_nodeID": "N2ded7a8ef7134adaa4f4a1fbf125b5b2"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": "Humorous recitations",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "@_nodeID": "N257c8c1a0c6d4070a9c93e22d44f34bd"
+                    }
+                }
+            ],
+            "rights": "Public domain in the USA.",
+            "description": "Recorded September 1900.",
+            "title": "Schultz at the Paris Exposition",
+            "@_about": "ebooks/10186"
+        },
+        "Work": {
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "@_about": ""
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

@@ -1,0 +1,182 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "publisher": "Project Gutenberg",
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "Na7fbe153beb2469cb40f29f7092f06ba"
+                }
+            },
+            "license": {
+                "@_resource": "license"
+            },
+            "title": "Radio Program for WAAM, Newark, New Jersey",
+            "downloads": {
+                "#text": 7,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "rights": "Public domain in the USA.",
+            "subject": [
+                {
+                    "Description": {
+                        "value": "Radio programs",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "@_nodeID": "N9c15f0c9438f4513b21d84d04aee2710"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Organ music",
+                        "@_nodeID": "N790bc0ceb9f040ddbe41588cc312825e"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "value": "M",
+                        "@_nodeID": "N3edff792c0b04e54b6992dca6b01dca1"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": "Songs with piano",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "@_nodeID": "Ne690792c49f644e297c0036c1dd2872e"
+                    }
+                }
+            ],
+            "hasFormat": [
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10243"
+                        },
+                        "extent": {
+                            "#text": 5502,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N035c5bcdcbaf42358e624ab6cedf1d07"
+                            }
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:25.933446",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10243.rdf"
+                    }
+                },
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 12455918,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2003-11-24T14:30:42",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nb1fd377d2aba4f73994ff1fcdee8dfe2"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10243"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10243/10243-m/10243-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Na0b1620de1ca4ac9a2ec4d1e45151efa"
+                            }
+                        },
+                        "extent": {
+                            "#text": 21466,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10243"
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T17:46:17",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10243/10243-m/10243-m-readme.txt"
+                    }
+                }
+            ],
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "description": "Recorded April 12, 1928, at Columbia Street Studio, Edison Laboratory, West Orange, New Jersey; this was an experimental slow speed (30 RPM) record used for an experimental pre-recorded radio broadcast.",
+            "type": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "value": "Sound",
+                    "@_nodeID": "Nc759ceee72e7433bb0ddbe838f2c4c79"
+                }
+            },
+            "prf": {
+                "agent": {
+                    "name": "Scott, John A.",
+                    "@_about": "2009/agents/3402"
+                }
+            },
+            "@_about": "ebooks/10243"
+        },
+        "Work": {
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "@_about": ""
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

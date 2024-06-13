@@ -1,0 +1,180 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N1375e7739af64d719ca4d7a1dba6d1c7"
+                }
+            },
+            "type": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "value": "Sound",
+                    "@_nodeID": "Na2f17594efe54ed7a30802d024ae8694"
+                }
+            },
+            "subject": [
+                {
+                    "Description": {
+                        "value": "Voyages, Imaginary",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "@_nodeID": "N0fbe67815b724756ad1030a7f692b82c"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "value": "PS",
+                        "@_nodeID": "Na8bcf4058a804919b1f42a657a982653"
+                    }
+                }
+            ],
+            "rights": "Public domain in the USA.",
+            "license": {
+                "@_resource": "license"
+            },
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "hasFormat": [
+                {
+                    "file": {
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N8f56ee1b265d4318b17a3c57b1ab43fc"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10311"
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T19:41:39",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "extent": {
+                            "#text": 21403,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10311/10311-m/10311-m-readme.txt"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10311"
+                        },
+                        "extent": {
+                            "#text": 2146536,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2003-11-26T13:42:25",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nb62d86546acf4870ad67d6ce4c64b3ef"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10311/10311-m/10311-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10311"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N9eb3f9250f244eb8b7c489b0a23360cb"
+                            }
+                        },
+                        "extent": {
+                            "#text": 5411,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:29.031455",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10311.rdf"
+                    }
+                }
+            ],
+            "creator": {
+                "agent": {
+                    "alias": "Edison, Thomas Alva",
+                    "birthdate": {
+                        "#text": 1847,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "deathdate": {
+                        "#text": 1931,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "webpage": {
+                        "@_resource": "http://en.wikipedia.org/wiki/Thomas_Edison"
+                    },
+                    "name": "Edison, Thomas A. (Thomas Alva)",
+                    "@_about": "2009/agents/3325"
+                }
+            },
+            "downloads": {
+                "#text": 13,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "publisher": "Project Gutenberg",
+            "title": "Around the World on the Phonograph",
+            "description": "Recorded c. late Oct. 1888 at West Orange, New Jersey or local vicinity.  Believed to be the earliest existing recording of Thomas Edison's voice.",
+            "@_about": "ebooks/10311"
+        },
+        "Work": {
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "@_about": ""
+        },
+        "Description": {
+            "description": "Wikipedia",
+            "@_about": "http://en.wikipedia.org/wiki/Thomas_Edison"
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

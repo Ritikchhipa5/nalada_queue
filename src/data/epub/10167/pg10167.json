@@ -1,0 +1,165 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "subject": [
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "value": "M",
+                        "@_nodeID": "N5dc82674ca4c43a29904b99089521d50"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Band music",
+                        "@_nodeID": "N7856cb735d274e9dbe61a101d18767ab"
+                    }
+                }
+            ],
+            "hasFormat": [
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 1634014,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2003-11-21T18:23:32",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10167"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N6940f46f14c4444287b2c3eeab36351e"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10167/10167-m/10167-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10167"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N73d07cdac22f421eabf19991a15d1a00"
+                            }
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T16:42:14",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "extent": {
+                            "#text": 21339,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10167/10167-m/10167-m-readme.txt"
+                    }
+                },
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 4798,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:22.756598",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Naf66a2b0efa147d8a6ba5f1c64fbd190"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10167"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10167.rdf"
+                    }
+                }
+            ],
+            "rights": "Public domain in the USA.",
+            "license": {
+                "@_resource": "license"
+            },
+            "type": {
+                "Description": {
+                    "value": "Sound",
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "@_nodeID": "N584fcf41a2774fae98946f20d1846acf"
+                }
+            },
+            "downloads": {
+                "#text": 10,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "creator": {
+                "agent": {
+                    "alias": "Edison Grand Concert Band",
+                    "name": "Edison Concert Band",
+                    "@_about": "2009/agents/3350"
+                }
+            },
+            "publisher": "Project Gutenberg",
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "Na50537f00d7d4962864cf19bd9a33881"
+                }
+            },
+            "description": "Released December 1900.",
+            "title": "Mr. Thomas Cat",
+            "@_about": "ebooks/10167"
+        },
+        "Work": {
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "@_about": ""
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

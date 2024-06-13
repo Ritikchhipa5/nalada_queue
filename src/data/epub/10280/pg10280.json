@@ -1,0 +1,188 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "creator": {
+                "agent": {
+                    "webpage": {
+                        "@_resource": "http://en.wikipedia.org/wiki/Paul_Laurence_Dunbar"
+                    },
+                    "name": "Dunbar, Paul Laurence",
+                    "birthdate": {
+                        "#text": 1872,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "deathdate": {
+                        "#text": 1906,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "@_about": "2009/agents/6269"
+                }
+            },
+            "hasFormat": [
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10280"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nd985efdbe2aa42748da828acf771af78"
+                            }
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:26.444447",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "extent": {
+                            "#text": 5686,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10280.rdf"
+                    }
+                },
+                {
+                    "file": {
+                        "modified": {
+                            "#text": "2003-11-25T15:33:52",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10280"
+                        },
+                        "extent": {
+                            "#text": 2772535,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N84b4ceec8c3c469f96ef38d852cbb8c8"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10280/10280-m/10280-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10280"
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T18:44:31",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nd5b0c9d55d4241d08e04f209ae4f01a6"
+                            }
+                        },
+                        "extent": {
+                            "#text": 21450,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10280/10280-m/10280-m-readme.txt"
+                    }
+                }
+            ],
+            "title": "In de Mornin' and Jes Gib Him One Ob Mine",
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N947ea9225d004b7fbdf8e6e03d9535a1"
+                }
+            },
+            "description": [
+                "Recorded c. April 1914.",
+                "Wright was an African-American actor educated at Emerson College of Oratory in Boston.  His recitations helped to introduce and popularize the works of African-American poet Dunbar."
+            ],
+            "license": {
+                "@_resource": "license"
+            },
+            "downloads": {
+                "#text": 12,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "rights": "Public domain in the USA.",
+            "subject": [
+                {
+                    "Description": {
+                        "value": "PS",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "@_nodeID": "Nf2aaa900f94049d2874a21c1b3146913"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Poetry",
+                        "@_nodeID": "Ne1338774e47c4d85a720840990989528"
+                    }
+                }
+            ],
+            "prf": {
+                "agent": {
+                    "name": "Wright, Edward Sterling",
+                    "@_about": "2009/agents/3435"
+                }
+            },
+            "type": {
+                "Description": {
+                    "value": "Sound",
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "@_nodeID": "N654055b6e1dc404ea20956e039ec3a0b"
+                }
+            },
+            "publisher": "Project Gutenberg",
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "@_about": "ebooks/10280"
+        },
+        "Work": {
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "@_about": ""
+        },
+        "Description": {
+            "description": "Wikipedia",
+            "@_about": "http://en.wikipedia.org/wiki/Paul_Laurence_Dunbar"
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

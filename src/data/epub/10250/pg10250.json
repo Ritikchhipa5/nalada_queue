@@ -1,0 +1,167 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "subject": [
+                {
+                    "Description": {
+                        "value": "PS",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "@_nodeID": "N8b5ceda49f624ea6b4ef0d0a60a80889"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": "Men -- Societies and clubs -- Drama",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "@_nodeID": "N4b81e96af6e54005a7c4cf68f19ddbb8"
+                    }
+                }
+            ],
+            "publisher": "Project Gutenberg",
+            "type": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "value": "Sound",
+                    "@_nodeID": "Nac1a9f08340c4a1a9adcd56bd09d0fac"
+                }
+            },
+            "downloads": {
+                "#text": 5,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N4023ba58efff4edba57b69cbaa1bccdb"
+                }
+            },
+            "hasFormat": [
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10250"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N6b88ba31a0ca499ab3dbd771561ff2c8"
+                            }
+                        },
+                        "extent": {
+                            "#text": 21339,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T18:40:09",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10250/10250-m/10250-m-readme.txt"
+                    }
+                },
+                {
+                    "file": {
+                        "modified": {
+                            "#text": "2003-11-24T15:12:00",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10250"
+                        },
+                        "extent": {
+                            "#text": 4311356,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N78869de60ea447d89d3d961442f758a4"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10250/10250-m/10250-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 4949,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10250"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N04221f0b0bb04c789cb92d17da0bc90b"
+                            }
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:26.011445",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10250.rdf"
+                    }
+                }
+            ],
+            "description": [
+                "Recorded December 7, 1912 or February 16, 1913, at the Edison Motion Picture Film Studio, Bronx, New York.",
+                "Directed by Ramsay."
+            ],
+            "oth": {
+                "agent": {
+                    "name": "Ramsay",
+                    "@_about": "2009/agents/3409"
+                }
+            },
+            "license": {
+                "@_resource": "license"
+            },
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "title": "The Five Bachelors",
+            "rights": "Public domain in the USA.",
+            "@_about": "ebooks/10250"
+        },
+        "Work": {
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "@_about": ""
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

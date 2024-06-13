@@ -1,0 +1,164 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "creator": {
+                "agent": {
+                    "name": "Edison Minstrels",
+                    "@_about": "2009/agents/3362"
+                }
+            },
+            "license": {
+                "@_resource": "license"
+            },
+            "hasFormat": [
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 4756,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10185"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N9b85ad53a0bb43f3975152fdc21fd1b5"
+                            }
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:22.976605",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10185.rdf"
+                    }
+                },
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 21337,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10185"
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T16:44:57",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N6107924c0ffe4a42a6f22e8529535747"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10185/10185-m/10185-m-readme.txt"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10185"
+                        },
+                        "modified": {
+                            "#text": "2003-11-21T20:08:46",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "extent": {
+                            "#text": 1696394,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N4ecaf56024e04613a0ad03c2848e7864"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10185/10185-m/10185-m-001.mp3"
+                    }
+                }
+            ],
+            "description": "Recorded c. July 1899.",
+            "subject": [
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Minstrel shows -- Songs and music",
+                        "@_nodeID": "N15476aec1bf349f5aa074ddedc6be453"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": "M",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "@_nodeID": "N0b208d033b3a4034a5bfb07a240eb17b"
+                    }
+                }
+            ],
+            "type": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "value": "Sound",
+                    "@_nodeID": "N5bfa1706536e4907adacbfebd0ffe2d1"
+                }
+            },
+            "downloads": {
+                "#text": 3,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N6cfc831dee7242c3bd49fd75345c2ae4"
+                }
+            },
+            "rights": "Public domain in the USA.",
+            "publisher": "Project Gutenberg",
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "title": "Minstrel Potpourri",
+            "@_about": "ebooks/10185"
+        },
+        "Work": {
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "@_about": ""
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

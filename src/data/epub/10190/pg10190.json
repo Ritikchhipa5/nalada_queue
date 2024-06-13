@@ -1,0 +1,188 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "publisher": "Project Gutenberg",
+            "hasFormat": [
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 5481,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10190"
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:23.034605",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nccd61dcce92c4153a1fb6c78b5ff373c"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10190.rdf"
+                    }
+                },
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 2877234,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N191f1bea68894644ba9dd4abd4ea2891"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10190"
+                        },
+                        "modified": {
+                            "#text": "2003-11-21T20:27:24",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10190/10190-m/10190-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10190"
+                        },
+                        "extent": {
+                            "#text": 21344,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T16:45:35",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N889a1b9e00ee49b7b01c5e4175fc2eec"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10190/10190-m/10190-m-readme.txt"
+                    }
+                }
+            ],
+            "creator": {
+                "agent": {
+                    "name": "Hill, Murry K.",
+                    "birthdate": {
+                        "#text": 1865,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "deathdate": {
+                        "#text": 1942,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "webpage": {
+                        "@_resource": "https://en.wikipedia.org/wiki/Murray_K._Hill"
+                    },
+                    "@_about": "2009/agents/3367"
+                }
+            },
+            "description": "Recorded November 1908.",
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "Nc317d0784b394d65be451d6dac2e0632"
+                }
+            },
+            "type": {
+                "Description": {
+                    "value": "Sound",
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "@_nodeID": "N2030def8e5054667b5191a8bf3527616"
+                }
+            },
+            "subject": [
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Humorous recitations",
+                        "@_nodeID": "Nf7c40448b71946cf94371976b73b5ea1"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": "PS",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "@_nodeID": "Nac64868480174075818b95cf67285d8e"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Vaudeville",
+                        "@_nodeID": "N636768e57c37454da35cb50f36e2d8b1"
+                    }
+                }
+            ],
+            "downloads": {
+                "#text": 10,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "license": {
+                "@_resource": "license"
+            },
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "rights": "Public domain in the USA.",
+            "title": "A Bunch of Nonsense: Vaudeville Specialty",
+            "@_about": "ebooks/10190"
+        },
+        "Work": {
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "@_about": ""
+        },
+        "Description": {
+            "description": "en.wikipedia",
+            "@_about": "https://en.wikipedia.org/wiki/Murray_K._Hill"
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

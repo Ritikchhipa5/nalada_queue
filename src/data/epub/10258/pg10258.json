@@ -1,0 +1,174 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "license": {
+                "@_resource": "license"
+            },
+            "hasFormat": [
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 2541821,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10258"
+                        },
+                        "modified": {
+                            "#text": "2003-11-24T16:32:08",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N03abcaccbe194c71b5f17f86ad0f89fd"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10258/10258-m/10258-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "modified": {
+                            "#text": "2020-12-19T18:41:21",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Ne07967428e1c409a8cd650ec91f042a4"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10258"
+                        },
+                        "extent": {
+                            "#text": 21280,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10258/10258-m/10258-m-readme.txt"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10258"
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:26.124445",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N7d3a55a6069a46c3bf59bceb143234cb"
+                            }
+                        },
+                        "extent": {
+                            "#text": 5077,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10258.rdf"
+                    }
+                }
+            ],
+            "subject": [
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Tambura (Fretted lute) music",
+                        "@_nodeID": "N0499ea411baa40c59682185a98df1061"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": "Kolos",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "@_nodeID": "Ne8669fcacbe24b7782878208a02264da"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": "M",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "@_nodeID": "N1363a8d454484306b39c582fd8502606"
+                    }
+                }
+            ],
+            "rights": "Public domain in the USA.",
+            "title": "Nataligino Kolo",
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "type": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "value": "Sound",
+                    "@_nodeID": "N26315c72df1f43ec85a91c46c224ce9c"
+                }
+            },
+            "description": "Recorded c. 1920.",
+            "publisher": "Project Gutenberg",
+            "creator": {
+                "agent": {
+                    "alias": "Jugo-Slav Tamburitza Orchestra",
+                    "name": "Jugoslavensko Tamburasko Drustvo",
+                    "@_about": "2009/agents/3415"
+                }
+            },
+            "downloads": {
+                "#text": 5,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N14aa812d410948ecbb93454f8c303a11"
+                }
+            },
+            "@_about": "ebooks/10258"
+        },
+        "Work": {
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "@_about": ""
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

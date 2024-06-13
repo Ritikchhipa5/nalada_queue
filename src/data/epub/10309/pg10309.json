@@ -1,0 +1,183 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N2648861e26db43bc8ba8e225380497db"
+                }
+            },
+            "hasFormat": [
+                {
+                    "file": {
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Na150d293cddd40e5befc5e7d2bf9d1c5"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10309"
+                        },
+                        "extent": {
+                            "#text": 21348,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T19:41:24",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10309/10309-m/10309-m-readme.txt"
+                    }
+                },
+                {
+                    "file": {
+                        "modified": {
+                            "#text": "2020-12-24T05:09:29.004487",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10309"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Naddd3ba1348c415da4f9023526bf2a0b"
+                            }
+                        },
+                        "extent": {
+                            "#text": 5406,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10309.rdf"
+                    }
+                },
+                {
+                    "file": {
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N29a860ed198f441ca7fdf4bde97f4237"
+                            }
+                        },
+                        "extent": {
+                            "#text": 1522105,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2003-11-26T13:26:23",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10309"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10309/10309-m/10309-m-001.mp3"
+                    }
+                }
+            ],
+            "downloads": {
+                "#text": 11,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "subject": [
+                {
+                    "Description": {
+                        "value": "M",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "@_nodeID": "N5847b4905c2e4e46a3ca57cfbd471289"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Songs -- Instrumental settings",
+                        "@_nodeID": "Ne45f81ad80a441c79a6129a0ae372c32"
+                    }
+                }
+            ],
+            "type": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "value": "Sound",
+                    "@_nodeID": "N59605f00af704390a2fbec3099e85933"
+                }
+            },
+            "license": {
+                "@_resource": "license"
+            },
+            "publisher": "Project Gutenberg",
+            "rights": "Public domain in the USA.",
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "description": "Recorded c. August 1888 in London, England.",
+            "cmp": {
+                "agent": {
+                    "webpage": {
+                        "@_resource": "https://en.wikipedia.org/wiki/Arthur_Sullivan"
+                    },
+                    "deathdate": {
+                        "#text": 1900,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "alias": [
+                        "Sulivan, Arthur",
+                        "Sullivan, Arthur Seymour, Sir"
+                    ],
+                    "name": "Sullivan, Arthur",
+                    "birthdate": {
+                        "#text": 1842,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "@_about": "2009/agents/422"
+                }
+            },
+            "title": "The Lost Chord",
+            "@_about": "ebooks/10309"
+        },
+        "Work": {
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "@_about": ""
+        },
+        "Description": {
+            "description": "en.wikipedia",
+            "@_about": "https://en.wikipedia.org/wiki/Arthur_Sullivan"
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

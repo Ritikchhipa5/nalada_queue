@@ -1,0 +1,192 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "license": {
+                "@_resource": "license"
+            },
+            "hasFormat": [
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10194"
+                        },
+                        "extent": {
+                            "#text": 2932091,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2003-11-21T20:43:40",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N7feedf52f5ec40eb86bbc94f1e625c7b"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10194/10194-m/10194-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 21368,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N56c9e2053a6e4b839484c36dd5d7d976"
+                            }
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T16:46:12",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10194"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10194/10194-m/10194-m-readme.txt"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10194"
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:23.082601",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "extent": {
+                            "#text": 5676,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N61f4fe2f2e0747d0ab5e11e7678d7a39"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10194.rdf"
+                    }
+                }
+            ],
+            "description": [
+                "Recorded November 24, 1923.",
+                "J. Bisbee on fiddle accompanied by Beulah Bisbee-Schuler on piano."
+            ],
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N520c2d8d521e4711a434697850e0979f"
+                }
+            },
+            "prf": {
+                "agent": {
+                    "birthdate": {
+                        "#text": 1843,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "alias": "Bisbee, Jasper E.",
+                    "name": "Bisbee, Jep",
+                    "webpage": {
+                        "@_resource": "https://en.wikipedia.org/wiki/Jasper_Bisbee"
+                    },
+                    "deathdate": {
+                        "#text": 1935,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "@_about": "2009/agents/3370"
+                }
+            },
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "publisher": "Project Gutenberg",
+            "subject": [
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Reels (Music)",
+                        "@_nodeID": "Nc50d146cd151430e8d4b6cb10213434a"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Old-time music",
+                        "@_nodeID": "N62e8b3fb71ea487fb98572c68620a777"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "value": "M",
+                        "@_nodeID": "Na7e63427998f4c4bb72eb67318c3c9a9"
+                    }
+                }
+            ],
+            "title": "Opera Reel with Calls",
+            "type": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "value": "Sound",
+                    "@_nodeID": "N260dd339944f4d04ae1ae1f994eeaae3"
+                }
+            },
+            "rights": "Public domain in the USA.",
+            "downloads": {
+                "#text": 17,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "@_about": "ebooks/10194"
+        },
+        "Work": {
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "@_about": ""
+        },
+        "Description": {
+            "description": "en.wikipedia",
+            "@_about": "https://en.wikipedia.org/wiki/Jasper_Bisbee"
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

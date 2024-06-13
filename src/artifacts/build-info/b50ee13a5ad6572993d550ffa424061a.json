@@ -1,0 +1,256 @@
+{
+  "id": "b50ee13a5ad6572993d550ffa424061a",
+  "_format": "hh-sol-build-info-1",
+  "solcVersion": "0.8.25",
+  "solcLongVersion": "0.8.25+commit.b61c2a91",
+  "input": {
+    "language": "Solidity",
+    "sources": {
+      "contracts/interfaces/INalndaMarketplaceITO.sol": {
+        "content": "// SPDX-License-Identifier: MIT\npragma solidity 0.8.25;\n\ninterface INalndaMarketplaceITO {\n    function NALNDA() external view returns (address);\n\n    function transferAfterDays() external view returns (uint256);\n}\n"
+      }
+    },
+    "settings": {
+      "viaIR": true,
+      "optimizer": {
+        "enabled": true,
+        "runs": 1
+      },
+      "outputSelection": {
+        "*": {
+          "*": [
+            "abi",
+            "evm.bytecode",
+            "evm.deployedBytecode",
+            "evm.methodIdentifiers",
+            "metadata"
+          ],
+          "": [
+            "ast"
+          ]
+        }
+      }
+    }
+  },
+  "output": {
+    "contracts": {
+      "contracts/interfaces/INalndaMarketplaceITO.sol": {
+        "INalndaMarketplaceITO": {
+          "abi": [
+            {
+              "inputs": [],
+              "name": "NALNDA",
+              "outputs": [
+                {
+                  "internalType": "address",
+                  "name": "",
+                  "type": "address"
+                }
+              ],
+              "stateMutability": "view",
+              "type": "function"
+            },
+            {
+              "inputs": [],
+              "name": "transferAfterDays",
+              "outputs": [
+                {
+                  "internalType": "uint256",
+                  "name": "",
+                  "type": "uint256"
+                }
+              ],
+              "stateMutability": "view",
+              "type": "function"
+            }
+          ],
+          "evm": {
+            "bytecode": {
+              "functionDebugData": {},
+              "generatedSources": [],
+              "linkReferences": {},
+              "object": "",
+              "opcodes": "",
+              "sourceMap": ""
+            },
+            "deployedBytecode": {
+              "functionDebugData": {},
+              "generatedSources": [],
+              "immutableReferences": {},
+              "linkReferences": {},
+              "object": "",
+              "opcodes": "",
+              "sourceMap": ""
+            },
+            "methodIdentifiers": {
+              "NALNDA()": "b9600caf",
+              "transferAfterDays()": "ed399d06"
+            }
+          },
+          "metadata": "{\"compiler\":{\"version\":\"0.8.25+commit.b61c2a91\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"NALNDA\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"transferAfterDays\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/interfaces/INalndaMarketplaceITO.sol\":\"INalndaMarketplaceITO\"},\"evmVersion\":\"cancun\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":1},\"remappings\":[],\"viaIR\":true},\"sources\":{\"contracts/interfaces/INalndaMarketplaceITO.sol\":{\"keccak256\":\"0x1e4ed8da56306d72e0b707ba529c6de9d8a4aa350eb0ec5e894545bb2b4fdf92\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b53cf7eebb89fbb38aedbee23fe11eb80ca09f12b44c6e4e925d29ec864886da\",\"dweb:/ipfs/Qmd4z7eU4zR4FiX1XirnLRxWoXq4soGn3qR1oodfwVPd7P\"]}},\"version\":1}"
+        }
+      }
+    },
+    "sources": {
+      "contracts/interfaces/INalndaMarketplaceITO.sol": {
+        "ast": {
+          "absolutePath": "contracts/interfaces/INalndaMarketplaceITO.sol",
+          "exportedSymbols": {
+            "INalndaMarketplaceITO": [
+              12
+            ]
+          },
+          "id": 13,
+          "license": "MIT",
+          "nodeType": "SourceUnit",
+          "nodes": [
+            {
+              "id": 1,
+              "literals": [
+                "solidity",
+                "0.8",
+                ".25"
+              ],
+              "nodeType": "PragmaDirective",
+              "src": "32:23:0"
+            },
+            {
+              "abstract": false,
+              "baseContracts": [],
+              "canonicalName": "INalndaMarketplaceITO",
+              "contractDependencies": [],
+              "contractKind": "interface",
+              "fullyImplemented": false,
+              "id": 12,
+              "linearizedBaseContracts": [
+                12
+              ],
+              "name": "INalndaMarketplaceITO",
+              "nameLocation": "67:21:0",
+              "nodeType": "ContractDefinition",
+              "nodes": [
+                {
+                  "functionSelector": "b9600caf",
+                  "id": 6,
+                  "implemented": false,
+                  "kind": "function",
+                  "modifiers": [],
+                  "name": "NALNDA",
+                  "nameLocation": "104:6:0",
+                  "nodeType": "FunctionDefinition",
+                  "parameters": {
+                    "id": 2,
+                    "nodeType": "ParameterList",
+                    "parameters": [],
+                    "src": "110:2:0"
+                  },
+                  "returnParameters": {
+                    "id": 5,
+                    "nodeType": "ParameterList",
+                    "parameters": [
+                      {
+                        "constant": false,
+                        "id": 4,
+                        "mutability": "mutable",
+                        "name": "",
+                        "nameLocation": "-1:-1:-1",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 6,
+                        "src": "136:7:0",
+                        "stateVariable": false,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        "typeName": {
+                          "id": 3,
+                          "name": "address",
+                          "nodeType": "ElementaryTypeName",
+                          "src": "136:7:0",
+                          "stateMutability": "nonpayable",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        },
+                        "visibility": "internal"
+                      }
+                    ],
+                    "src": "135:9:0"
+                  },
+                  "scope": 12,
+                  "src": "95:50:0",
+                  "stateMutability": "view",
+                  "virtual": false,
+                  "visibility": "external"
+                },
+                {
+                  "functionSelector": "ed399d06",
+                  "id": 11,
+                  "implemented": false,
+                  "kind": "function",
+                  "modifiers": [],
+                  "name": "transferAfterDays",
+                  "nameLocation": "160:17:0",
+                  "nodeType": "FunctionDefinition",
+                  "parameters": {
+                    "id": 7,
+                    "nodeType": "ParameterList",
+                    "parameters": [],
+                    "src": "177:2:0"
+                  },
+                  "returnParameters": {
+                    "id": 10,
+                    "nodeType": "ParameterList",
+                    "parameters": [
+                      {
+                        "constant": false,
+                        "id": 9,
+                        "mutability": "mutable",
+                        "name": "",
+                        "nameLocation": "-1:-1:-1",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 11,
+                        "src": "203:7:0",
+                        "stateVariable": false,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        "typeName": {
+                          "id": 8,
+                          "name": "uint256",
+                          "nodeType": "ElementaryTypeName",
+                          "src": "203:7:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "visibility": "internal"
+                      }
+                    ],
+                    "src": "202:9:0"
+                  },
+                  "scope": 12,
+                  "src": "151:61:0",
+                  "stateMutability": "view",
+                  "virtual": false,
+                  "visibility": "external"
+                }
+              ],
+              "scope": 13,
+              "src": "57:157:0",
+              "usedErrors": [],
+              "usedEvents": []
+            }
+          ],
+          "src": "32:183:0"
+        },
+        "id": 0
+      }
+    }
+  }
+}

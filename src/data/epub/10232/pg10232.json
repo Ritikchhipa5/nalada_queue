@@ -1,0 +1,183 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "subject": [
+                {
+                    "Description": {
+                        "value": "Edison, Thomas A. (Thomas Alva), 1847-1931",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "@_nodeID": "Nee6f047b3f7141888b492114387525e5"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "value": "TK",
+                        "@_nodeID": "N67bd5d38c1594a24a059d043d06edd15"
+                    }
+                }
+            ],
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N0aabe399f13b4c4e93be0d9d23228aa3"
+                }
+            },
+            "publisher": "Project Gutenberg",
+            "type": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "value": "Sound",
+                    "@_nodeID": "Ne830a16e35194d2db1ee2dbce38e737e"
+                }
+            },
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "hasFormat": [
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 21445,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10232"
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T17:44:29",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N02d01bef77aa43deaaf61e5bef1a2c94"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10232/10232-m/10232-m-readme.txt"
+                    }
+                },
+                {
+                    "file": {
+                        "modified": {
+                            "#text": "2020-12-24T05:09:25.798444",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10232"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Ne7f3053abdd74fb6a34d302a156a8bfc"
+                            }
+                        },
+                        "extent": {
+                            "#text": 5406,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10232.rdf"
+                    }
+                },
+                {
+                    "file": {
+                        "modified": {
+                            "#text": "2003-11-24T11:16:20",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "extent": {
+                            "#text": 1027764,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10232"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nd2b1cc5da37048edbba6f37560abfdc1"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10232/10232-m/10232-m-001.mp3"
+                    }
+                }
+            ],
+            "rights": "Public domain in the USA.",
+            "creator": {
+                "agent": {
+                    "name": "Miles, Nelson Appleton",
+                    "birthdate": {
+                        "#text": 1839,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "deathdate": {
+                        "#text": 1925,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "alias": [
+                        "Miles, General (Nelson Appleton)",
+                        "Miles, N. A. (Nelson Appleton)"
+                    ],
+                    "webpage": {
+                        "@_resource": "http://en.wikipedia.org/wiki/Nelson_A._Miles"
+                    },
+                    "@_about": "2009/agents/3398"
+                }
+            },
+            "description": "Recorded on December 28, 1914.",
+            "title": "Remarks from a Visit to Edison Laboratory",
+            "downloads": {
+                "#text": 2,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "license": {
+                "@_resource": "license"
+            },
+            "@_about": "ebooks/10232"
+        },
+        "Work": {
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "@_about": ""
+        },
+        "Description": {
+            "description": "en.wikipedia",
+            "@_about": "http://en.wikipedia.org/wiki/Nelson_A._Miles"
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

@@ -1,0 +1,274 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "issued": {
+                "#text": "2003-12-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "subject": [
+                {
+                    "Description": {
+                        "value": "Love songs",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "@_nodeID": "Nfd005cd848ce4a62b25b84d3e631fbfc"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": "Popular music -- 1921-1930",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "@_nodeID": "Nc0753ee778c846a78975ea499c7be773"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "value": "M",
+                        "@_nodeID": "Nf8140f5bec194bf983ce1fee4121643d"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Ocean -- Songs and music",
+                        "@_nodeID": "N74beecb8846a4a2da73cfdcb80bf31bf"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Sea songs",
+                        "@_nodeID": "Nebf78e78661b48f6a0dd4e804898fced"
+                    }
+                }
+            ],
+            "downloads": {
+                "#text": 12,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "title": "By the Sapphire Sea",
+            "description": "Recorded March 22, 1922 in New York City.",
+            "cmp": {
+                "agent": {
+                    "birthdate": {
+                        "#text": 1881,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "name": "Snyder, Ted",
+                    "alias": [
+                        "Snyder, Theodore Frank",
+                        "Snyder, Edward"
+                    ],
+                    "deathdate": {
+                        "#text": 1965,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "@_about": "2009/agents/33409"
+                }
+            },
+            "ctb": [
+                {
+                    "agent": {
+                        "name": "Wheeler, Francis",
+                        "@_about": "2009/agents/40594"
+                    }
+                },
+                {
+                    "agent": {
+                        "deathdate": {
+                            "#text": 1936,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "name": "Smith, Harry B. (Harry Bache)",
+                        "birthdate": {
+                            "#text": 1860,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "alias": "Smith, H. B. (Harry Bache)",
+                        "@_about": "2009/agents/40593"
+                    }
+                }
+            ],
+            "type": {
+                "Description": {
+                    "value": "Sound",
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "@_nodeID": "N2a537ea7bc4a452b9002b039efa55720"
+                }
+            },
+            "hasFormat": [
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 21526,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T21:41:49",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10411"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N2a067acccd59445a81d3a8c991d0e8ab"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10411/10411-m/10411-m-readme.txt"
+                    }
+                },
+                {
+                    "file": {
+                        "modified": {
+                            "#text": "2003-12-08T14:41:19",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "extent": {
+                            "#text": 1896697,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N0055062dc9d84deb9b4bd2346dbef5eb"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10411"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10411/10411-m/10411-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "format": [
+                            {
+                                "Description": {
+                                    "value": {
+                                        "#text": "application/zip",
+                                        "@_datatype": "http://purl.org/dc/terms/IMT"
+                                    },
+                                    "memberOf": {
+                                        "@_resource": "http://purl.org/dc/terms/IMT"
+                                    },
+                                    "@_nodeID": "Nc49adda34eff44b391cdbba7aa4f06ce"
+                                }
+                            },
+                            {
+                                "Description": {
+                                    "memberOf": {
+                                        "@_resource": "http://purl.org/dc/terms/IMT"
+                                    },
+                                    "value": {
+                                        "#text": "text/plain",
+                                        "@_datatype": "http://purl.org/dc/terms/IMT"
+                                    },
+                                    "@_nodeID": "Nb1b0fc516d6a44a88a58e3c7facba802"
+                                }
+                            }
+                        ],
+                        "extent": {
+                            "#text": 1880257,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10411"
+                        },
+                        "modified": {
+                            "#text": "2003-12-08T14:42:40",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10411/10411-m.zip"
+                    }
+                },
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 7796,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:33.701474",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10411"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nd4702b886b794de4af6ffc1d0cc77159"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10411.rdf"
+                    }
+                }
+            ],
+            "prf": {
+                "agent": {
+                    "name": "Tilley, Herbert C., Jr.",
+                    "@_about": "2009/agents/3523"
+                }
+            },
+            "license": {
+                "@_resource": "license"
+            },
+            "rights": "Public domain in the USA.",
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "Nb7e9eea9a9734b73bc6f8ef719103dfc"
+                }
+            },
+            "publisher": "Project Gutenberg",
+            "@_about": "ebooks/10411"
+        },
+        "Work": {
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "@_about": ""
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

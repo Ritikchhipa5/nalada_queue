@@ -1,0 +1,180 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "type": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "value": "Sound",
+                    "@_nodeID": "Nb0cfd58f292c42918b5a787eae152a3f"
+                }
+            },
+            "subject": [
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Xylophone and piano music",
+                        "@_nodeID": "N151aa88e158943c189ecc1bb783129c5"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "value": "M",
+                        "@_nodeID": "Na71ff00a124d4da88bce27889102cc9b"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": "Polkas",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "@_nodeID": "N86384ca7be38464ba9187e1bebad654a"
+                    }
+                }
+            ],
+            "hasFormat": [
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 21331,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10283"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N3e56c3f774c54690b1b361610b61f198"
+                            }
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T18:44:58",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10283/10283-m/10283-m-readme.txt"
+                    }
+                },
+                {
+                    "file": {
+                        "modified": {
+                            "#text": "2003-11-25T15:47:44",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10283"
+                        },
+                        "extent": {
+                            "#text": 1760656,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nb38e92b95e9b4076b99aed84de267ad4"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10283/10283-m/10283-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10283"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N3564c33bc9554f02956062698d3c009b"
+                            }
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:26.481446",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "extent": {
+                            "#text": 5281,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10283.rdf"
+                    }
+                }
+            ],
+            "publisher": "Project Gutenberg",
+            "prf": {
+                "agent": {
+                    "name": "Lowe, Charles P.",
+                    "webpage": {
+                        "@_resource": "https://en.wikipedia.org/wiki/Charles_P._Lowe"
+                    },
+                    "@_about": "2009/agents/3438"
+                }
+            },
+            "license": {
+                "@_resource": "license"
+            },
+            "description": "Recorded c. 1900.",
+            "downloads": {
+                "#text": 8,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N25c2ae2f5818427bb31291f19b578b2b"
+                }
+            },
+            "title": "Dinah Polka",
+            "rights": "Public domain in the USA.",
+            "@_about": "ebooks/10283"
+        },
+        "Work": {
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "@_about": ""
+        },
+        "Description": {
+            "description": "en.wikipedia",
+            "@_about": "https://en.wikipedia.org/wiki/Charles_P._Lowe"
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

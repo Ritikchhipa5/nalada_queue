@@ -1,0 +1,189 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "subject": [
+                {
+                    "Description": {
+                        "value": "PS",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "@_nodeID": "N15efb0ce6b83478dbff10ecbaf4ea698"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "American wit and humor",
+                        "@_nodeID": "N161631f0dc114e699a1e521943e1a4c0"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": "Humorous recitations",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "@_nodeID": "N681c6486f88a48458927a539a77e3fee"
+                    }
+                }
+            ],
+            "type": {
+                "Description": {
+                    "value": "Sound",
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "@_nodeID": "Nb4bf4d68832f44e198e4f55755a39b93"
+                }
+            },
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "downloads": {
+                "#text": 5,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "license": {
+                "@_resource": "license"
+            },
+            "hasFormat": [
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 5531,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nd7da77d707ae4a408baeb4bbfa69c3ae"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10191"
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:23.046607",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10191.rdf"
+                    }
+                },
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 3080048,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N61c272401f914c0e9694a4148d52c6a4"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10191"
+                        },
+                        "modified": {
+                            "#text": "2003-11-21T20:30:14",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10191/10191-m/10191-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "modified": {
+                            "#text": "2020-12-19T16:45:45",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Na63416388b1f4aa098f478bc0ace8ba8"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10191"
+                        },
+                        "extent": {
+                            "#text": 21388,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10191/10191-m/10191-m-readme.txt"
+                    }
+                }
+            ],
+            "creator": {
+                "agent": {
+                    "webpage": {
+                        "@_resource": "https://en.wikipedia.org/wiki/Cal_Stewart"
+                    },
+                    "name": "Stewart, Cal",
+                    "deathdate": {
+                        "#text": 1919,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "alias": "Stewart, Calvin Edward",
+                    "birthdate": {
+                        "#text": 1856,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "@_about": "2009/agents/494"
+                }
+            },
+            "publisher": "Project Gutenberg",
+            "title": "Fourth of July at Punkin Center",
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "Nee794fa7d1a541ffa14f308f6928988e"
+                }
+            },
+            "description": "Recorded July 1911.",
+            "rights": "Public domain in the USA.",
+            "@_about": "ebooks/10191"
+        },
+        "Work": {
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "@_about": ""
+        },
+        "Description": {
+            "description": "en.wikipedia",
+            "@_about": "https://en.wikipedia.org/wiki/Cal_Stewart"
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

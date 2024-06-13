@@ -1,0 +1,198 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "cmp": {
+                "agent": {
+                    "alias": [
+                        "Mozart, Johann Chrysostom Wolfgang Amadeus",
+                        "Mozart, W. A. (Wolfgang Amadeus)"
+                    ],
+                    "name": "Mozart, Wolfgang Amadeus",
+                    "deathdate": {
+                        "#text": 1791,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "birthdate": {
+                        "#text": 1756,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "webpage": {
+                        "@_resource": "http://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+                    },
+                    "@_about": "2009/agents/1368"
+                }
+            },
+            "downloads": {
+                "#text": 36,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "prf": {
+                "agent": {
+                    "name": "Gregorian Choir",
+                    "@_about": "2009/agents/3432"
+                }
+            },
+            "type": {
+                "Description": {
+                    "value": "Sound",
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "@_nodeID": "N8c2236970cbc42209dfb4f1fcf62e77f"
+                }
+            },
+            "subject": [
+                {
+                    "Description": {
+                        "value": "M",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "@_nodeID": "Nb7d853fd14be47f29c80c19b8d9a9641"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Masses -- Excerpts",
+                        "@_nodeID": "N6b7235d0c494483597fc23d767a36c2e"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": "Choruses, Sacred (Mixed voices, 4 parts)",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "@_nodeID": "N70715096c0bf4a35bcf25c9dcf245b63"
+                    }
+                }
+            ],
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "description": "Recorded c. 1915.",
+            "title": "Gloria&#13;\nFrom The Twelfth Mass by Wolfgang Amadeus Mozart",
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "la",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "Ne608c0590773406fbda4d118b129f057"
+                }
+            },
+            "rights": "Public domain in the USA.",
+            "hasFormat": [
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10276"
+                        },
+                        "modified": {
+                            "#text": "2003-11-25T15:00:49",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N211cddbe669646b895409bdde11a0ffd"
+                            }
+                        },
+                        "extent": {
+                            "#text": 3117038,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10276/10276-m/10276-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "modified": {
+                            "#text": "2020-12-24T05:09:26.393450",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N18a7fb48fc3746d093da8c4245c6519c"
+                            }
+                        },
+                        "extent": {
+                            "#text": 5911,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10276"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10276.rdf"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10276"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N755338e3477f422692c24058540e7906"
+                            }
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T18:43:52",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "extent": {
+                            "#text": 21292,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10276/10276-m/10276-m-readme.txt"
+                    }
+                }
+            ],
+            "publisher": "Project Gutenberg",
+            "license": {
+                "@_resource": "license"
+            },
+            "@_about": "ebooks/10276"
+        },
+        "Work": {
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "@_about": ""
+        },
+        "Description": {
+            "description": "Wikipedia",
+            "@_about": "http://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

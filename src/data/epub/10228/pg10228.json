@@ -1,0 +1,186 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "subject": [
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Edison, Thomas A. (Thomas Alva), 1847-1931",
+                        "@_nodeID": "Na263740f0efb4eafb95743b684f207e4"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": "TK",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "@_nodeID": "Na14263ad29584556a857c344f7c17593"
+                    }
+                }
+            ],
+            "hasFormat": [
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 21397,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T17:43:58",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nec3cd75972404cae8195fc899c34847a"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10228"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10228/10228-m/10228-m-readme.txt"
+                    }
+                },
+                {
+                    "file": {
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N04d48554545f49bf9269155ee3f3627a"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10228"
+                        },
+                        "extent": {
+                            "#text": 1402674,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2003-11-24T10:51:07",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10228/10228-m/10228-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 5450,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10228"
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:25.751444",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N59d8771874d8426fa2995b3dfded4e09"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10228.rdf"
+                    }
+                }
+            ],
+            "creator": {
+                "agent": {
+                    "webpage": {
+                        "@_resource": "http://en.wikipedia.org/wiki/Porfirio_Díaz"
+                    },
+                    "birthdate": {
+                        "#text": 1830,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "alias": [
+                        "Mori, Porfirio Díaz",
+                        "Diaz, Porfirio"
+                    ],
+                    "name": "Díaz, Porfirio",
+                    "deathdate": {
+                        "#text": 1915,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "@_about": "2009/agents/3394"
+                }
+            },
+            "type": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "value": "Sound",
+                    "@_nodeID": "N7d87089ffffb4331a817dea0ffdeb186"
+                }
+            },
+            "publisher": "Project Gutenberg",
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "downloads": {
+                "#text": 4,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "title": "El Presidente Díaz al Señor Edison",
+            "rights": "Public domain in the USA.",
+            "license": {
+                "@_resource": "license"
+            },
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "es",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N2bd203217dfa434a8ec065dd8d8b9606"
+                }
+            },
+            "description": [
+                "Recorded c. August 1909 in Mexico.",
+                "Díaz was the president of Mexico."
+            ],
+            "@_about": "ebooks/10228"
+        },
+        "Work": {
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "@_about": ""
+        },
+        "Description": {
+            "description": "en.wikipedia",
+            "@_about": "http://en.wikipedia.org/wiki/Porfirio_Díaz"
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

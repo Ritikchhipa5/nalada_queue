@@ -1,0 +1,182 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N278b76ef2a3a4cb2b8db139f4d26a100"
+                }
+            },
+            "prf": {
+                "agent": {
+                    "name": "Ferera and Paaluhi",
+                    "@_about": "2009/agents/3408"
+                }
+            },
+            "publisher": "Project Gutenberg",
+            "subject": [
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Blues (Music)",
+                        "@_nodeID": "Nc86edcf8bbd848c7803e37f15a6f6579"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "value": "M",
+                        "@_nodeID": "N67461d546b2045b2a7d047a6b22bb54e"
+                    }
+                }
+            ],
+            "hasFormat": [
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10249"
+                        },
+                        "extent": {
+                            "#text": 5360,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:26.001445",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N87eaed00e901472d86e0244e355755ed"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10249.rdf"
+                    }
+                },
+                {
+                    "file": {
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N3b54caf7396f400d9323ea022194e747"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10249"
+                        },
+                        "modified": {
+                            "#text": "2003-11-24T14:57:57",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "extent": {
+                            "#text": 2637743,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10249/10249-m/10249-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "modified": {
+                            "#text": "2020-12-19T17:47:19",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "extent": {
+                            "#text": 21340,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nf979580a9a8d40ab87e01a55d46a4a89"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10249"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10249/10249-m/10249-m-readme.txt"
+                    }
+                }
+            ],
+            "type": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "value": "Sound",
+                    "@_nodeID": "Na17676bf8dc3451b8c9982209705e187"
+                }
+            },
+            "cmp": {
+                "agent": {
+                    "name": "Handy, W. C. (William Christopher)",
+                    "deathdate": {
+                        "#text": 1958,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "birthdate": {
+                        "#text": 1873,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "alias": "Handy, William Christopher",
+                    "@_about": "2009/agents/40688"
+                }
+            },
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "license": {
+                "@_resource": "license"
+            },
+            "description": [
+                "Recorded September 4, 1925.",
+                "Frank Ferera and John Paaluhi, Hawaiian guitar duet."
+            ],
+            "downloads": {
+                "#text": 32,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "title": "The St. Louis Blues",
+            "rights": "Public domain in the USA.",
+            "@_about": "ebooks/10249"
+        },
+        "Work": {
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "@_about": ""
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

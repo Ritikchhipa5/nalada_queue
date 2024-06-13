@@ -1,0 +1,198 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "license": {
+                "@_resource": "license"
+            },
+            "rights": "Public domain in the USA.",
+            "description": "Recorded July 21, 1927.",
+            "prf": {
+                "agent": {
+                    "name": "Hotel Commodore Ensemble",
+                    "alias": "Ensemble, Hotel Commodore",
+                    "@_about": "2009/agents/3358"
+                }
+            },
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "cmp": {
+                "agent": {
+                    "deathdate": {
+                        "#text": 1918,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "name": "Debussy, Claude",
+                    "birthdate": {
+                        "#text": 1862,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "alias": "Debussy, C. (Claude)",
+                    "webpage": [
+                        {
+                            "@_resource": "http://fr.wikipedia.org/wiki/Claude_Debussy"
+                        },
+                        {
+                            "@_resource": "http://en.wikipedia.org/wiki/Claude_Debussy"
+                        }
+                    ],
+                    "@_about": "2009/agents/26550"
+                }
+            },
+            "type": {
+                "Description": {
+                    "value": "Sound",
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "@_nodeID": "Neea2c5c45ea24daa8311a52c55b188a5"
+                }
+            },
+            "subject": [
+                {
+                    "Description": {
+                        "value": "Orchestral music, Arranged",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "@_nodeID": "N83a151dba03d4fd58e92f2bde6058358"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "value": "M",
+                        "@_nodeID": "N060bee910458436fa70240cda13f6a6f"
+                    }
+                }
+            ],
+            "publisher": "Project Gutenberg",
+            "title": "Clair de Lune&#13;\nFrom Suite Bergamasque",
+            "hasFormat": [
+                {
+                    "file": {
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N36ce0c271d914b50920b7dd39c94f1aa"
+                            }
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:22.928605",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "extent": {
+                            "#text": 5823,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10181"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10181.rdf"
+                    }
+                },
+                {
+                    "file": {
+                        "modified": {
+                            "#text": "2003-11-21T19:48:20",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "extent": {
+                            "#text": 2992277,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N550b6ea05a8043dca1bdc979cf0f3cc9"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10181"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10181/10181-m/10181-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10181"
+                        },
+                        "extent": {
+                            "#text": 21340,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T16:44:22",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N980424e105134fdb95cb0ff4fa123b2a"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10181/10181-m/10181-m-readme.txt"
+                    }
+                }
+            ],
+            "downloads": {
+                "#text": 31,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N7085da3fb8fd47ef952f26707ba30ccb"
+                }
+            },
+            "@_about": "ebooks/10181"
+        },
+        "Work": {
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "@_about": ""
+        },
+        "Description": [
+            {
+                "description": "fr.wikipedia",
+                "@_about": "http://fr.wikipedia.org/wiki/Claude_Debussy"
+            },
+            {
+                "description": "en.wikipedia",
+                "@_about": "http://en.wikipedia.org/wiki/Claude_Debussy"
+            }
+        ],
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

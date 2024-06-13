@@ -1,0 +1,183 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "publisher": "Project Gutenberg",
+            "downloads": {
+                "#text": 0,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "creator": {
+                "agent": {
+                    "birthdate": {
+                        "#text": 1898,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "name": "Edison, Theodore M.",
+                    "alias": "Edison, Theodore Miller",
+                    "webpage": {
+                        "@_resource": "https://en.wikipedia.org/wiki/Theodore_Miller_Edison"
+                    },
+                    "deathdate": {
+                        "#text": 1992,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "@_about": "2009/agents/3400"
+                }
+            },
+            "rights": "Public domain in the USA.",
+            "subject": [
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "value": "TK",
+                        "@_nodeID": "N7c92a24be80b4e19b2eb9cfb234585c0"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Edison, Thomas A. (Thomas Alva), 1847-1931",
+                        "@_nodeID": "N340831960c294203b6adb08b96a9fe2f"
+                    }
+                }
+            ],
+            "hasFormat": [
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10235"
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T17:44:52",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "extent": {
+                            "#text": 21387,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N023929aad5e8432e9c0b4c07251fd02f"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10235/10235-m/10235-m-readme.txt"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10235"
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:25.848444",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Na1b15a2a89d74e9bb12dad0938047430"
+                            }
+                        },
+                        "extent": {
+                            "#text": 5499,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10235.rdf"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10235"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nffe6a00bd8c943f28fca305ee82826f4"
+                            }
+                        },
+                        "modified": {
+                            "#text": "2003-11-24T13:12:42",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "extent": {
+                            "#text": 2313302,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10235/10235-m/10235-m-001.mp3"
+                    }
+                }
+            ],
+            "type": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "value": "Sound",
+                    "@_nodeID": "N89ee54192ada4d6fa718cc914e1cff57"
+                }
+            },
+            "title": "Discussion on Edison's Monoid Theory",
+            "license": {
+                "@_resource": "license"
+            },
+            "description": [
+                "Recorded July 26, 1970 at Glenmont (Edison's home), 2nd Floor Library, West Orange, New Jersey.",
+                "Theodore M. Edison was the son of Thomas A. Edison."
+            ],
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N6ff8d2bb255f449bb378410dcb7e2325"
+                }
+            },
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "@_about": "ebooks/10235"
+        },
+        "Work": {
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "@_about": ""
+        },
+        "Description": {
+            "description": "en.wikipedia",
+            "@_about": "https://en.wikipedia.org/wiki/Theodore_Miller_Edison"
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

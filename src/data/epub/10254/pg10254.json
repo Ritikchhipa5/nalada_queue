@@ -1,0 +1,183 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "Work": {
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "@_about": ""
+        },
+        "ebook": {
+            "description": [
+                "Recorded c. 1914 at the Edison Motion Picture Film Studio, Bronx, New York.",
+                "The motion picture element of this sound film is believed lost."
+            ],
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "subject": [
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "value": "TK",
+                        "@_nodeID": "Na6af4a40fbc845c7952d15c3fc0da7cc"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Telephone -- History",
+                        "@_nodeID": "Nc074db93b214433c985a6af7bf4d8889"
+                    }
+                }
+            ],
+            "hasFormat": [
+                {
+                    "file": {
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N6ca64a9d9d894797aaab4396ae49195d"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10254"
+                        },
+                        "extent": {
+                            "#text": 21370,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T18:40:48",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10254/10254-m/10254-m-readme.txt"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10254"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N631ffce4e48e47a2a20425f99334fb04"
+                            }
+                        },
+                        "extent": {
+                            "#text": 3914504,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2003-11-24T15:38:13",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10254/10254-m/10254-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 5464,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10254"
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:26.078445",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N75da86c999074f1481fcdd93d2acb589"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10254.rdf"
+                    }
+                }
+            ],
+            "publisher": "Project Gutenberg",
+            "creator": {
+                "agent": {
+                    "deathdate": {
+                        "#text": 1934,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "name": "Watson, Thomas Augustus",
+                    "alias": "Watson, Thomas A.",
+                    "webpage": {
+                        "@_resource": "http://en.wikipedia.org/wiki/Thomas_Watson_%28inventor%29"
+                    },
+                    "birthdate": {
+                        "#text": 1854,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "@_about": "2009/agents/3411"
+                }
+            },
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "Nb148deadc1d94703b41ee0ec315437f2"
+                }
+            },
+            "type": {
+                "Description": {
+                    "value": "Sound",
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "@_nodeID": "N1c2ed36ead5c42a8aeb5ce0e5b1b4f42"
+                }
+            },
+            "license": {
+                "@_resource": "license"
+            },
+            "downloads": {
+                "#text": 11,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "title": "The Birth of the Telephone",
+            "rights": "Public domain in the USA.",
+            "@_about": "ebooks/10254"
+        },
+        "Description": {
+            "description": "Wikipedia",
+            "@_about": "http://en.wikipedia.org/wiki/Thomas_Watson_%28inventor%29"
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

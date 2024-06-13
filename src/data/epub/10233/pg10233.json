@@ -1,0 +1,182 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "subject": [
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "value": "TK",
+                        "@_nodeID": "Nce7f05dda0c34b77a568ee0c6870fa83"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Telephone -- History",
+                        "@_nodeID": "N9bfe18fc7daf4127b1dfbf3067bdd646"
+                    }
+                }
+            ],
+            "license": {
+                "@_resource": "license"
+            },
+            "description": [
+                "On October 21, 1915 a group of Thomas Edison's friends and business associates played this recording in the library of the Edison Laboratory in West Orange, New Jersey and transmitted it to Edison at the Panama-Pacific International Exposition in San Francisco, California via the American Telephone and Telegraph Company's newly completed transcontinental telephone line.",
+                "Recorded c. October 17, 1915."
+            ],
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "creator": {
+                "agent": {
+                    "name": "Hutchinson, Miller Reese",
+                    "deathdate": {
+                        "#text": 1944,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "webpage": {
+                        "@_resource": "http://en.wikipedia.org/wiki/Miller_Reese_Hutchison"
+                    },
+                    "birthdate": {
+                        "#text": 1876,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "@_about": "2009/agents/3399"
+                }
+            },
+            "downloads": {
+                "#text": 2,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "hasFormat": [
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10233"
+                        },
+                        "extent": {
+                            "#text": 5690,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:25.809446",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N862db57a5553460db8907344bdeb7c9d"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10233.rdf"
+                    }
+                },
+                {
+                    "file": {
+                        "modified": {
+                            "#text": "2003-11-24T13:08:45",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "extent": {
+                            "#text": 2947764,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N733e88a654a9434898cb1fed78a455f2"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10233"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10233/10233-m/10233-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10233"
+                        },
+                        "extent": {
+                            "#text": 21497,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T17:44:37",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N90be76bad2394de8af3105a24840ee4d"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10233/10233-m/10233-m-readme.txt"
+                    }
+                }
+            ],
+            "type": {
+                "Description": {
+                    "value": "Sound",
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "@_nodeID": "N65aac7569f6042f893865fe3d4d0be0b"
+                }
+            },
+            "title": "Transcontinental Telephone Address to Thomas A. Edison",
+            "rights": "Public domain in the USA.",
+            "publisher": "Project Gutenberg",
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N5c3de833adcd4938999777bd406a6d69"
+                }
+            },
+            "@_about": "ebooks/10233"
+        },
+        "Work": {
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "@_about": ""
+        },
+        "Description": {
+            "description": "en.wikipedia",
+            "@_about": "http://en.wikipedia.org/wiki/Miller_Reese_Hutchison"
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

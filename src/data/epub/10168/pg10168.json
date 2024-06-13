@@ -1,0 +1,180 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "license": {
+                "@_resource": "license"
+            },
+            "downloads": {
+                "#text": 33,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "prf": {
+                "agent": {
+                    "name": "British Military Band",
+                    "@_about": "2009/agents/3345"
+                }
+            },
+            "hasFormat": [
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 1613012,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Ncf2a6db8522740ff9a2d075573d38b3e"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10168"
+                        },
+                        "modified": {
+                            "#text": "2003-11-21T18:26:32",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10168/10168-m/10168-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10168"
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T16:42:22",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "extent": {
+                            "#text": 21370,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N6e405dfc52b34ec28d870d87dd13eea5"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10168/10168-m/10168-m-readme.txt"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10168"
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:22.767599",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N26bae40be8294c8b93c6ac5f2d4da8c9"
+                            }
+                        },
+                        "extent": {
+                            "#text": 5278,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10168.rdf"
+                    }
+                }
+            ],
+            "alternative": "Kaiser Friedrich-Marsch",
+            "subject": [
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Band music",
+                        "@_nodeID": "Naf243814951f48c29095ace5ffbac54b"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "value": "M",
+                        "@_nodeID": "N34c54027ab5e45ae94458dfb14795a34"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": "Marches (Band)",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "@_nodeID": "Na18028374cb646bf9dc841065d0b7037"
+                    }
+                }
+            ],
+            "type": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "value": "Sound",
+                    "@_nodeID": "N2d69bed4593f4bf9895b89cc5468f521"
+                }
+            },
+            "description": "Recorded 1905.",
+            "rights": "Public domain in the USA.",
+            "publisher": "Project Gutenberg",
+            "cmp": {
+                "agent": {
+                    "name": "Friedemann, Carl",
+                    "@_about": "2009/agents/38647"
+                }
+            },
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N0d3e59f3f37a433392fcefff6f4bd0a7"
+                }
+            },
+            "title": "Kaiser Frederick March",
+            "@_about": "ebooks/10168"
+        },
+        "Work": {
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "@_about": ""
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

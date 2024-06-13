@@ -1,0 +1,187 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "description": "Recorded 1913.",
+            "cmp": {
+                "agent": {
+                    "alias": "Liszt, F. (Franz)",
+                    "deathdate": {
+                        "#text": 1886,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "birthdate": {
+                        "#text": 1811,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "webpage": {
+                        "@_resource": "http://en.wikipedia.org/wiki/Franz_Liszt"
+                    },
+                    "name": "Liszt, Franz",
+                    "@_about": "2009/agents/1266"
+                }
+            },
+            "subject": [
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Band music, Arranged",
+                        "@_nodeID": "N56eb148c664e4c25a53ad8372d5b530d"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "value": "M",
+                        "@_nodeID": "Nd7c7915d4f5b49f2a035f92a5d552b5c"
+                    }
+                }
+            ],
+            "hasFormat": [
+                {
+                    "file": {
+                        "modified": {
+                            "#text": "2003-11-21T18:59:38",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10173"
+                        },
+                        "extent": {
+                            "#text": 3258099,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N75ea1ff471fc44ef89b68e9ba2ebe836"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10173/10173-m/10173-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10173"
+                        },
+                        "extent": {
+                            "#text": 5543,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N5c0e414262884d4a8c8caee10067edc4"
+                            }
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:22.830604",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10173.rdf"
+                    }
+                },
+                {
+                    "file": {
+                        "modified": {
+                            "#text": "2020-12-19T16:43:08",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N4357be5264ce441e89b913aa081dd450"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10173"
+                        },
+                        "extent": {
+                            "#text": 21408,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10173/10173-m/10173-m-readme.txt"
+                    }
+                }
+            ],
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "downloads": {
+                "#text": 25,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "title": "Hungarian Rhapsody No. 2, Part 1",
+            "publisher": "Project Gutenberg",
+            "license": {
+                "@_resource": "license"
+            },
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "Ndf8b5751f0e347c584623f66c09e7fc2"
+                }
+            },
+            "creator": {
+                "agent": {
+                    "name": "Edison Concert Band",
+                    "alias": "Edison Grand Concert Band",
+                    "@_about": "2009/agents/3350"
+                }
+            },
+            "rights": "Public domain in the USA.",
+            "type": {
+                "Description": {
+                    "value": "Sound",
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "@_nodeID": "N8cd94f1b4acd4f32a8b8e10b04ae6f50"
+                }
+            },
+            "@_about": "ebooks/10173"
+        },
+        "Work": {
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "@_about": ""
+        },
+        "Description": {
+            "description": "Wikipedia",
+            "@_about": "http://en.wikipedia.org/wiki/Franz_Liszt"
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

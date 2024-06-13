@@ -1,0 +1,191 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "subject": [
+                {
+                    "Description": {
+                        "value": "HB",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "@_nodeID": "N95222156e2a445faa7ea4e3fdd8bb650"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": "Charities",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "@_nodeID": "N458d4283c9f64d8b8cdcfaf01e55cf70"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": "Wealth -- Moral and ethical aspects",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "@_nodeID": "N9b35e618e1ca49c29be61a37bfd4c4f7"
+                    }
+                }
+            ],
+            "rights": "Public domain in the USA.",
+            "type": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "value": "Sound",
+                    "@_nodeID": "Nc9967c5c9d2d4a7e8ed268760874e327"
+                }
+            },
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N3486bba6f7d345948e22fc7352b58340"
+                }
+            },
+            "license": {
+                "@_resource": "license"
+            },
+            "description": [
+                "Recorded January 20, 1914 at the Edison Motion Picture Film Studio, Bronx, New York.",
+                "The motion picture element of this sound film is believed lost."
+            ],
+            "creator": {
+                "agent": {
+                    "name": "Carnegie, Andrew",
+                    "birthdate": {
+                        "#text": 1835,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "deathdate": {
+                        "#text": 1919,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "webpage": {
+                        "@_resource": "http://en.wikipedia.org/wiki/Andrew_Carnegie"
+                    },
+                    "@_about": "2009/agents/2029"
+                }
+            },
+            "hasFormat": [
+                {
+                    "file": {
+                        "modified": {
+                            "#text": "2020-12-24T05:09:26.067445",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nfc70be88f6f440e6aac1f1bd883c1fa4"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10253"
+                        },
+                        "extent": {
+                            "#text": 5645,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10253.rdf"
+                    }
+                },
+                {
+                    "file": {
+                        "modified": {
+                            "#text": "2003-11-24T15:35:12",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N151228b36f2a420b924048a56153dcd8"
+                            }
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10253"
+                        },
+                        "extent": {
+                            "#text": 4291608,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10253/10253-m/10253-m-001.mp3"
+                    }
+                },
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10253"
+                        },
+                        "extent": {
+                            "#text": 21330,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T18:40:37",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N3a6ee1542c50433183970b0d11a77619"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10253/10253-m/10253-m-readme.txt"
+                    }
+                }
+            ],
+            "publisher": "Project Gutenberg",
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "title": "The Gospel of Wealth",
+            "downloads": {
+                "#text": 68,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "@_about": "ebooks/10253"
+        },
+        "Work": {
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "@_about": ""
+        },
+        "Description": {
+            "description": "Wikipedia",
+            "@_about": "http://en.wikipedia.org/wiki/Andrew_Carnegie"
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

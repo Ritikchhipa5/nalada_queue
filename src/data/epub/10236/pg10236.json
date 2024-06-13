@@ -1,0 +1,178 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "hasFormat": [
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10236"
+                        },
+                        "modified": {
+                            "#text": "2020-12-24T05:09:25.858445",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Ncfd11ac2d522442fae5fdee3ac6c4c23"
+                            }
+                        },
+                        "extent": {
+                            "#text": 5124,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10236.rdf"
+                    }
+                },
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 21474,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10236"
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T17:45:00",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N01021af985b14e429805f5830f735fc6"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10236/10236-m/10236-m-readme.txt"
+                    }
+                },
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 2979425,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10236"
+                        },
+                        "modified": {
+                            "#text": "2003-11-24T13:16:54",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N20163d7a80084ce485d64641a69b0140"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10236/10236-m/10236-m-001.mp3"
+                    }
+                }
+            ],
+            "subject": [
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "value": "PC",
+                        "@_nodeID": "Nff089fc136834c3d831231cfef52f732"
+                    }
+                },
+                {
+                    "Description": {
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "value": "Spanish language -- Sound recordings for English speakers",
+                        "@_nodeID": "Nceddaa74ca784db4a898512c62181897"
+                    }
+                }
+            ],
+            "bookshelf": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "2009/pgterms/Bookshelf"
+                    },
+                    "value": "Language Education",
+                    "@_nodeID": "Nfa1edd34ca3d4e4483fe08ffbe277787"
+                }
+            },
+            "language": [
+                {
+                    "Description": {
+                        "value": {
+                            "#text": "en",
+                            "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                        },
+                        "@_nodeID": "N60ddc0d807ad419eac35a19f38766fa6"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": {
+                            "#text": "es",
+                            "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                        },
+                        "@_nodeID": "Nf71f5c8b10aa412cad1d1545d19f7027"
+                    }
+                }
+            ],
+            "description": "Recorded c. 1902.",
+            "publisher": "Project Gutenberg",
+            "license": {
+                "@_resource": "license"
+            },
+            "type": {
+                "Description": {
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "value": "Sound",
+                    "@_nodeID": "Ndd26152b006648b69ee0689f04bb3c73"
+                }
+            },
+            "rights": "Public domain in the USA.",
+            "downloads": {
+                "#text": 14,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "title": "International Correspondence School - Spanish Lesson #9",
+            "@_about": "ebooks/10236"
+        },
+        "Work": {
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "@_about": ""
+        },
+        "@_base": "http://www.gutenberg.org/"
+    }
+}

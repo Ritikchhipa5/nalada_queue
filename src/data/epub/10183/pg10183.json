@@ -1,0 +1,206 @@
+{
+    "?xml": {
+        "@_version": 1,
+        "@_encoding": "utf-8"
+    },
+    "RDF": {
+        "ebook": {
+            "subject": [
+                {
+                    "Description": {
+                        "value": "Piano music",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCSH"
+                        },
+                        "@_nodeID": "Na6fa27c4fa2b4267a2370a07d7604884"
+                    }
+                },
+                {
+                    "Description": {
+                        "value": "M",
+                        "memberOf": {
+                            "@_resource": "http://purl.org/dc/terms/LCC"
+                        },
+                        "@_nodeID": "N9b0f77b7fb704b098b55bb93c044872a"
+                    }
+                }
+            ],
+            "downloads": {
+                "#text": 33,
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            },
+            "hasFormat": [
+                {
+                    "file": {
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10183"
+                        },
+                        "extent": {
+                            "#text": 21529,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "value": {
+                                    "#text": "text/plain; charset=us-ascii",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Nbc9917cbe7914e4db15c4bb6b50bc6f2"
+                            }
+                        },
+                        "modified": {
+                            "#text": "2020-12-19T16:44:40",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10183/10183-m/10183-m-readme.txt"
+                    }
+                },
+                {
+                    "file": {
+                        "modified": {
+                            "#text": "2020-12-24T05:09:22.953599",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10183"
+                        },
+                        "extent": {
+                            "#text": 6067,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "application/rdf+xml",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "Neb3cbe85173e4e96a0508daaabc7c8b0"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/ebooks/10183.rdf"
+                    }
+                },
+                {
+                    "file": {
+                        "extent": {
+                            "#text": 3089139,
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                        },
+                        "modified": {
+                            "#text": "2003-11-21T19:56:10",
+                            "@_datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+                        },
+                        "isFormatOf": {
+                            "@_resource": "ebooks/10183"
+                        },
+                        "format": {
+                            "Description": {
+                                "value": {
+                                    "#text": "audio/mpeg",
+                                    "@_datatype": "http://purl.org/dc/terms/IMT"
+                                },
+                                "memberOf": {
+                                    "@_resource": "http://purl.org/dc/terms/IMT"
+                                },
+                                "@_nodeID": "N93fecd7b54304375b9a6d1fe1c202806"
+                            }
+                        },
+                        "@_about": "http://www.gutenberg.org/files/10183/10183-m/10183-m-001.mp3"
+                    }
+                }
+            ],
+            "rights": "Public domain in the USA.",
+            "type": {
+                "Description": {
+                    "value": "Sound",
+                    "memberOf": {
+                        "@_resource": "http://purl.org/dc/terms/DCMIType"
+                    },
+                    "@_nodeID": "N1e60cd8fc38745a49dfe5edf6c9adbc1"
+                }
+            },
+            "language": {
+                "Description": {
+                    "value": {
+                        "#text": "en",
+                        "@_datatype": "http://purl.org/dc/terms/RFC4646"
+                    },
+                    "@_nodeID": "N38b253910b404a168bd47e6639f89b06"
+                }
+            },
+            "issued": {
+                "#text": "2003-11-01",
+                "@_datatype": "http://www.w3.org/2001/XMLSchema#date"
+            },
+            "publisher": "Project Gutenberg",
+            "prf": {
+                "agent": {
+                    "name": "Rosenthal, Moriz",
+                    "birthdate": {
+                        "#text": 1862,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "deathdate": {
+                        "#text": 1946,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "webpage": {
+                        "@_resource": "http://en.wikipedia.org/wiki/Moriz_Rosenthal"
+                    },
+                    "alias": "Rosenthal, Moritz",
+                    "@_about": "2009/agents/3360"
+                }
+            },
+            "cmp": {
+                "agent": {
+                    "alias": [
+                        "Chopin, Frederic",
+                        "Chopin, Fryderyk Franciszek"
+                    ],
+                    "webpage": {
+                        "@_resource": "http://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric-Fran%C3%A7ois_Chopin"
+                    },
+                    "deathdate": {
+                        "#text": 1849,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "birthdate": {
+                        "#text": 1810,
+                        "@_datatype": "http://www.w3.org/2001/XMLSchema#integer"
+                    },
+                    "name": "Chopin, Frédéric",
+                    "@_about": "2009/agents/3039"
+                }
+            },
+            "license": {
+                "@_resource": "license"
+            },
+            "title": "Etude Nouvelle in A Flat and Etude in C Major, Op. 10, No. 1",
+            "@_about": "ebooks/10183"
+        },
+        "Work": {
+            "license": {
+                "@_resource": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            "comment": "Archives containing the RDF files for *all* our books can be downloaded at\n            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog",
+            "@_about": ""
+        },
+        "Description": [
+            {
+                "description": "Wikipedia",
+                "@_about": "http://en.wikipedia.org/wiki/Moriz_Rosenthal"
+            },
+            {
+                "description": "Wikipedia",
+                "@_about": "http://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric-Fran%C3%A7ois_Chopin"
+            }
+        ],
+        "@_base": "http://www.gutenberg.org/"
+    }
+}
