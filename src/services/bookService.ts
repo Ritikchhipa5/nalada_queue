@@ -13,6 +13,7 @@ import {
   NALNDA_SERVER_URL,
   QUEUES,
   temPath,
+  tempJsonPath,
   UserState,
 } from "../utils/constant";
 import { bookDownload } from "../utils/bookDownload";
@@ -22,15 +23,19 @@ import { rabbitMqClient } from "../jobs/rabbitMq";
 
 const booksAddServices = async () => {
   const folders = await fs.promises.readdir(dirPath);
+  const readTempJson = await require(tempJsonPath);
   let booksArray = [];
   let count = 0;
 
   for (const folder of folders) {
     if (
-      fs.lstatSync(`${dirPath}/${folder}`).isDirectory() &&
+      fs?.lstatSync(`${dirPath}/${folder}`).isDirectory() &&
       isUsable(parseInt(folder))
     ) {
-      if (fs.lstatSync(`${dirPath}/${folder}/pg${folder}.json`).isFile()) {
+      if (
+        fs?.lstatSync(`${dirPath}/${folder}/pg${folder}.json`)?.isFile() &&
+        fs?.lstatSync(tempJsonPath)?.isFile()
+      ) {
         let bookFile = null;
         try {
           bookFile = require(`../data/epub/${folder}/pg${folder}.json`);
@@ -43,12 +48,19 @@ const booksAddServices = async () => {
         if (isUsable(bookFile)) {
           count += 1;
           booksArray.push(bookFile);
-          console.log(count);
-          if (!(booksArray.length % 100) || count === folders.length) {
-            await processToGetBooksInfo({ bookFiles: booksArray });
-            // console.log(booksArray);
-            booksArray = [];
-          }
+          console.log(folders.length > count);
+          try {
+            if (!(booksArray.length % 2) || count === folders.length) {
+              await processToGetBooksInfo({ bookFiles: booksArray });
+              // fs.writeFileSync(
+              //   tempJsonPath,
+              //   JSON?.stringify({ bookReadCount: count })
+              // );
+              // console.log(booksArray);
+
+              booksArray = [];
+            }
+          } catch (error) {}
         }
       }
     }
@@ -203,9 +215,10 @@ const processToGetBookInfo = async ({ bookFile }) => {
           console.log(book, "books updated");
           let tx = await transaction.wait();
           console.log({ tx });
-          await bookUploadToDatabase({
+          await bookUploadToQueue({
             book: book,
             tx: tx,
+            bookAddress: "",
             bookFileName: bookFileName,
             coverUrl: coverUrl,
             coverFileName: coverFileName,
@@ -230,6 +243,7 @@ const processToGetBooksInfo = async ({ bookFiles }) => {
     _lang: [],
     _genre: [],
   };
+  const booksInfos = [];
   for (const bookFile of bookFiles) {
     const book = {
       bookshelf:
@@ -370,6 +384,18 @@ const processToGetBooksInfo = async ({ bookFiles }) => {
               books._lang.push(1);
               books._genre.push([1, 2, 5]);
               // console.log(count, typeof count, count);
+
+              booksInfos.push({
+                book: book,
+                bookFileName: bookFileName,
+                coverUrl: coverUrl,
+                coverFileName: coverFileName,
+                bookUrl: bookUrl,
+                genres: genres,
+                price: price,
+                language: language,
+                secondaryFromInDays: secondaryFromInDays,
+              });
             }
           }
         }
@@ -379,6 +405,15 @@ const processToGetBooksInfo = async ({ bookFiles }) => {
     }
   }
 
+  let booksAddresses = await marketplaceContract.computeNextBooksAddresses(
+    books._author,
+    books._coverURI,
+    books._initialPrice,
+    books._daysForSecondarySales,
+    books._lang,
+    books._genre
+  );
+  console.log(booksAddresses);
   let transaction = await marketplaceContract.createNewBooks(
     books._author,
     books._coverURI,
@@ -389,20 +424,25 @@ const processToGetBooksInfo = async ({ bookFiles }) => {
   );
 
   let tx = await transaction.wait();
+
+  // console.log(booksAddresses, "booksAddresses");
   console.log({ tx });
-  // await bookUploadToDatabase({
-  //   book: book,
-  //   tx: tx,
-  //   bookFileName: bookFileName,
-  //   coverUrl: coverUrl,
-  //   coverFileName: coverFileName,
-  //   bookUrl: bookUrl,
-  //   genres: genres,
-  //   price: price,
-  //   language: language,
-  //   secondaryFromInDays: secondaryFromInDays,
-  // });
-  console.log(books, "books");
+  for (let index = 0; index < booksAddresses.length; index++) {
+    const bookAddress = booksAddresses[index];
+    await bookUploadToQueue({
+      book: booksInfos[index]?.book,
+      tx: tx,
+      bookAddress: bookAddress,
+      bookFileName: booksInfos[index]?.bookFileName,
+      coverUrl: booksInfos[index]?.coverUrl,
+      coverFileName: booksInfos[index]?.coverFileName,
+      bookUrl: booksInfos[index]?.bookUrl,
+      genres: booksInfos[index]?.genres,
+      price: booksInfos[index]?.price,
+      language: booksInfos[index]?.language,
+      secondaryFromInDays: booksInfos[index]?.secondaryFromInDays,
+    });
+  }
 };
 
 // Book Cover Download and store the temporary folder
@@ -425,9 +465,104 @@ const bookCoverDownload = async ({ coverFileName, coverUrl }) => {
 };
 
 // Book upload in the database
-const bookUploadToDatabase = async ({
+export const bookUploadToDatabase = async ({
+  epub,
+  name,
+  author,
+  cover,
+  coverFile,
+  book,
+  genres,
+  ageGroup,
+  price,
+  pages,
+  publication,
+  synopsis,
+  language,
+  published,
+  secondarySalesFrom,
+  publisherAddress,
+  bookAddress,
+  txHash,
+}: any) => {
+  let formData = new FormData();
+  formData.append("epub", fs.createReadStream(String(epub?.path)));
+  formData.append("name", name ?? "UNKNOWN");
+  formData.append("author", author ?? "UNKNOWN");
+  formData.append("cover", cover);
+  formData.append("coverFile", fs.createReadStream(String(coverFile?.path)));
+  formData.append("book", book);
+  formData.append("genres", genres);
+  formData.append("ageGroup", ageGroup);
+  formData.append("price", price);
+  formData.append("pages", pages);
+  formData.append("publication", publication ?? "UNKNOWN");
+  formData.append(
+    "synopsis",
+    // synopsis.replace(/<[^>]+>/g,'')
+    synopsis
+  );
+  formData.append("language", language);
+  formData.append("published", published);
+  formData.append("secondarySalesFrom", secondarySalesFrom);
+  formData.append("publisherAddress", publisherAddress);
+  formData.append("bookAddress", bookAddress);
+  formData.append("txHash", txHash);
+
+  await axios({
+    url: NALNDA_SERVER_URL + "/api/book/publish",
+    method: "POST",
+    headers: {
+      ...formData.getHeaders(),
+    },
+    data: formData,
+  })
+    .then((res4) => {
+      if (res4.status === 200) {
+        console.log({
+          message: "book published",
+          book: {
+            title: book.title,
+            address: bookAddress,
+            txnHash: txHash,
+          },
+        });
+      } else {
+        console.error({
+          message: "WEB2 Publish Error",
+        });
+      }
+    })
+    .catch((err) => {
+      console.log(err.response.status);
+      if (isUsable(err.response)) {
+        if (err.response.status === 413)
+          console.error({
+            message: "WEB2 Publish Error",
+            error: "FILE LIMIT ERROR",
+          });
+        else if (err.response.status === 415)
+          console.error({
+            message: "WEB2 Publish Error",
+            error: "INVALID FILE TYPE ERROR",
+          });
+        else if (err.response.status === 500)
+          console.error({
+            message: "WEB2 Publish Error",
+            error: "INTERNAL SERVER ERROR",
+          });
+      } else
+        console.error({
+          message: "WEB2 Publish Error",
+          error: "NOT 200 responee",
+        });
+    });
+};
+
+const bookUploadToQueue = async ({
   book,
   tx,
+  bookAddress,
   bookFileName,
   coverUrl,
   coverFileName,
@@ -437,96 +572,43 @@ const bookUploadToDatabase = async ({
   language,
   secondaryFromInDays,
 }) => {
-  const bookAddress = tx.events.filter(
-    (event) => event["event"] === "OwnershipTransferred"
-  )[0].address;
+  // const bookAddress = tx.events.filter(
+  //   (event) => event["event"] === "OwnershipTransferred"
+  // )[0].address;
   const status = tx.status;
   const txHash = tx.transactionHash;
-  console.log({ creator: book.creator });
+
   if (
     isUsable(bookAddress) &&
     isUsable(status) &&
     status === 1 &&
     isUsable(txHash)
   ) {
-    let formData = new FormData();
-    formData.append(
-      "epub",
-      fs.createReadStream(customPath(`../temp/${bookFileName}`))
-    );
-    formData.append("name", book?.title ?? "UNKNOWN");
-    formData.append("author", book?.creator ?? "UNKNOWN");
-    formData.append("cover", coverUrl);
-    formData.append(
-      "coverFile",
-      fs.createReadStream(`./temp/${coverFileName}`)
-    );
-    formData.append("book", bookUrl);
-    formData.append("genres", JSON.stringify(genres));
-    formData.append("ageGroup", JSON.stringify([]));
-    formData.append("price", price);
-    formData.append("pages", 500);
-    formData.append("publication", book?.publisher ?? "UNKNOWN");
-    formData.append(
-      "synopsis",
-      // synopsis.replace(/<[^>]+>/g,'')
-      ""
-    );
-    formData.append("language", language);
-    formData.append("published", moment().format("YYYY-MM-DD"));
-    formData.append("secondarySalesFrom", secondaryFromInDays);
-    formData.append("publisherAddress", UserState.user.wallet);
-    formData.append("bookAddress", bookAddress);
-    formData.append("txHash", txHash);
+    const bookData = {
+      epub: fs.createReadStream(customPath(`../temp/${bookFileName}`)),
+      name: book?.title ?? "UNKNOWN",
+      author: book?.creator ?? "UNKNOWN",
+      cover: coverUrl,
+      coverFile: fs.createReadStream(customPath(`../temp/${coverFileName}`)),
+      book: bookUrl,
+      genres: JSON.stringify(genres),
+      ageGroup: JSON.stringify([]),
+      price: price,
+      pages: 500,
+      publication: book?.publisher ?? "UNKNOWN",
+      synopsis: "",
+      language: language,
+      published: moment().format("YYYY-MM-DD"),
+      secondarySalesFrom: secondaryFromInDays,
+      publisherAddress: UserState.user.wallet,
+      bookAddress: bookAddress,
+      txHash: txHash,
+    };
 
     rabbitMqClient.sendCreateBookTransactionDataToQueue(
       QUEUES.BOOK_BATCH_PROCESSING_QUEUE,
-      JSON.stringify({
-        formData,
-      })
+      JSON.stringify(bookData)
     );
-    // await axios({
-    //   url: NALNDA_SERVER_URL + "/api/book/publish",
-    //   method: "POST",
-    //   headers: {
-    //     ...formData.getHeaders(),
-    //   },
-    //   data: formData,
-    // })
-    //   .then((res4) => {
-    //     if (res4.status === 200) {
-    //       console.log({
-    //         message: "book published",
-    //         book: {
-    //           title: book.title,
-    //           address: bookAddress,
-    //           txnHash: txHash,
-    //         },
-    //       });
-    //     } else {
-    //       console.error({
-    //         message: "WEB2 Publish Error",
-    //       });
-    //     }
-    //   })
-    //   .catch((err) => {
-    //     if (isUsable(err.response)) {
-    //       if (err.response.status === 413)
-    //         console.error({
-    //           message: "WEB2 Publish Error",
-    //           error: "FILE LIMIT ERROR",
-    //         });
-    //       else if (err.response.status === 415)
-    //         console.error({
-    //           message: "WEB2 Publish Error",
-    //           error: "INVALID FILE TYPE ERROR",
-    //         });
-    //     } else
-    //       console.error({
-    //         message: "WEB2 Publish Error",
-    //         error: "NOT 200 responee",
-    //       });
-    //   });
   } else {
     if (!isUsable(txHash))
       console.error({
@@ -538,7 +620,6 @@ const bookUploadToDatabase = async ({
       });
   }
 };
-
 const bookCoverGenerate = () => {};
 
 export default booksAddServices;

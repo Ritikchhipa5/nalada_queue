@@ -5,7 +5,7 @@ export const NALNDA_SERVER_URL = "https://server.nalnda.com";
 export const NALNDA_TOKEN_CONTRACT_ADDRESS =
   "0xf1be3Ff58d52154830a27369d6E16235Ae0e8d34";
 export const MARKET_CONTRACT_ADDRESS =
-  "0x16E1d24736367d32E0Bcc216F8821fc57DC42fD7";
+  "0xDEEAc3F1dcEd043e3831C01a4a6855cDe443f5A9";
 export const UTILS = {};
 
 export const QUEUES = {
@@ -28,6 +28,7 @@ export const UserState = {
 };
 
 export const dirPath = path.join(__dirname, "../data/epub");
+export const tempJsonPath = path.join(__dirname, "../temp.json");
 export const temPath = path.join(__dirname, "../temp");
 export const customPath = (filePath: string) => path.join(__dirname, filePath);
 export const genresPath = path.join(__dirname, "../config/genres.txt");
@@ -37,7 +38,7 @@ export const GENRES = [1, 2];
 export const WALLET_PRIVATE_KEY =
   "0xcb5a39692ba03a3d34f29a006e56bb6fd12ea31d78f8d2b36be352fcb52c3016";
 export const provider = new ethers.providers.JsonRpcProvider(
-  `https://polygon-amoy.infura.io/v3/1da2a4aeb9a949d586c8bcbf4a43b8b6`
+  `https://polygon-amoy.infura.io/v3/27N6WnWjamLPy7lc85McjJoRTCZ`
 );
 
 export const signer = new ethers.Wallet(WALLET_PRIVATE_KEY, provider);
