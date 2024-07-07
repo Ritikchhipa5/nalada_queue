@@ -3,6 +3,7 @@ import { ethers } from "ethers";
 import { isFilled, isUsable } from "../utils/functions";
 import axios from "axios";
 import {
+  BOOKS_PROCESS,
   customPath,
   dirPath,
   GENRES,
@@ -50,7 +51,10 @@ const booksAddServices = async () => {
           booksArray.push(bookFile);
           console.log(folders.length > count);
           try {
-            if (!(booksArray.length % 50) || count === folders.length) {
+            if (
+              !(booksArray.length % BOOKS_PROCESS) ||
+              count === folders.length
+            ) {
               await processToGetBooksInfo({ bookFiles: booksArray });
               // fs.writeFileSync(
               //   tempJsonPath,
@@ -60,7 +64,9 @@ const booksAddServices = async () => {
 
               booksArray = [];
             }
-          } catch (error) {}
+          } catch (error) {
+            console.log(error);
+          }
         }
       }
     }
@@ -379,7 +385,7 @@ const processToGetBooksInfo = async ({ bookFiles }) => {
 
               books._author.push(UserState.user.wallet);
               books._coverURI.push(coverUrl);
-              books._initialPrice.push(ethers.utils.parseEther(price));
+              books._initialPrice.push(ethers.utils.parseUnits(price, 6));
               books._daysForSecondarySales.push(91);
               books._lang.push(1);
               books._genre.push([1, 2, 5]);
