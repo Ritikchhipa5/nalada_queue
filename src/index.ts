@@ -20,12 +20,12 @@ const main = async () => {
 
   app.get("/send", async (req, res) => {
     await booksAddServices();
-    res.send("Hello, Send to DB!");
+    return res.send("Hello, Send to DB!");
   });
 
   app.get("/send-db", async (req, res) => {
     await rabbitMqClient.sendBookToDatabase(QUEUES.BOOK_BATCH_PROCESSING_QUEUE);
-    res.send("Hello, Send to DB!");
+    return res.send("Hello, Send to DB!");
   });
 
   app.listen(port, () => {

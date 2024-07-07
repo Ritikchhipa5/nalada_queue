@@ -50,7 +50,7 @@ const booksAddServices = async () => {
           booksArray.push(bookFile);
           console.log(folders.length > count);
           try {
-            if (!(booksArray.length % 2) || count === folders.length) {
+            if (!(booksArray.length % 50) || count === folders.length) {
               await processToGetBooksInfo({ bookFiles: booksArray });
               // fs.writeFileSync(
               //   tempJsonPath,
@@ -485,78 +485,83 @@ export const bookUploadToDatabase = async ({
   bookAddress,
   txHash,
 }: any) => {
-  let formData = new FormData();
-  formData.append("epub", fs.createReadStream(String(epub?.path)));
-  formData.append("name", name ?? "UNKNOWN");
-  formData.append("author", author ?? "UNKNOWN");
-  formData.append("cover", cover);
-  formData.append("coverFile", fs.createReadStream(String(coverFile?.path)));
-  formData.append("book", book);
-  formData.append("genres", genres);
-  formData.append("ageGroup", ageGroup);
-  formData.append("price", price);
-  formData.append("pages", pages);
-  formData.append("publication", publication ?? "UNKNOWN");
-  formData.append(
-    "synopsis",
-    // synopsis.replace(/<[^>]+>/g,'')
-    synopsis
-  );
-  formData.append("language", language);
-  formData.append("published", published);
-  formData.append("secondarySalesFrom", secondarySalesFrom);
-  formData.append("publisherAddress", publisherAddress);
-  formData.append("bookAddress", bookAddress);
-  formData.append("txHash", txHash);
+  try {
+    let formData = new FormData();
+    formData.append("epub", fs.createReadStream(String(epub?.path)));
+    formData.append("name", name ?? "UNKNOWN");
+    formData.append("author", author ?? "UNKNOWN");
+    formData.append("cover", cover);
+    formData.append("coverFile", fs.createReadStream(String(coverFile?.path)));
+    formData.append("book", book);
+    formData.append("genres", genres);
+    formData.append("ageGroup", ageGroup);
+    formData.append("price", price);
+    formData.append("pages", pages);
+    formData.append("publication", publication ?? "UNKNOWN");
+    formData.append(
+      "synopsis",
+      // synopsis.replace(/<[^>]+>/g,'')
+      synopsis
+    );
+    formData.append("language", language);
+    formData.append("published", published);
+    formData.append("secondarySalesFrom", secondarySalesFrom);
+    formData.append("publisherAddress", publisherAddress);
+    formData.append("bookAddress", bookAddress);
+    formData.append("txHash", txHash);
 
-  await axios({
-    url: NALNDA_SERVER_URL + "/api/book/publish",
-    method: "POST",
-    headers: {
-      ...formData.getHeaders(),
-    },
-    data: formData,
-  })
-    .then((res4) => {
-      if (res4.status === 200) {
-        console.log({
-          message: "book published",
-          book: {
-            title: book.title,
-            address: bookAddress,
-            txnHash: txHash,
-          },
-        });
-      } else {
-        console.error({
-          message: "WEB2 Publish Error",
-        });
-      }
+    await axios({
+      url: NALNDA_SERVER_URL + "/api/book/publish",
+      method: "POST",
+      headers: {
+        ...formData.getHeaders(),
+      },
+      data: formData,
     })
-    .catch((err) => {
-      console.log(err.response.status);
-      if (isUsable(err.response)) {
-        if (err.response.status === 413)
+      .then((res4) => {
+        console.log(res4?.status);
+        if (res4.status === 200) {
+          console.log({
+            message: "book published",
+            book: {
+              title: name,
+              address: bookAddress,
+              txnHash: txHash,
+            },
+          });
+        } else {
           console.error({
             message: "WEB2 Publish Error",
-            error: "FILE LIMIT ERROR",
           });
-        else if (err.response.status === 415)
+        }
+      })
+      .catch((err) => {
+        console.log(err?.response?.status);
+        if (isUsable(err.response)) {
+          if (err.response.status === 413)
+            console.error({
+              message: "WEB2 Publish Error",
+              error: "FILE LIMIT ERROR",
+            });
+          else if (err.response.status === 415)
+            console.error({
+              message: "WEB2 Publish Error",
+              error: "INVALID FILE TYPE ERROR",
+            });
+          else if (err.response.status === 500)
+            console.error({
+              message: "WEB2 Publish Error",
+              error: "INTERNAL SERVER ERROR",
+            });
+        } else
           console.error({
             message: "WEB2 Publish Error",
-            error: "INVALID FILE TYPE ERROR",
+            error: "NOT 200 responee",
           });
-        else if (err.response.status === 500)
-          console.error({
-            message: "WEB2 Publish Error",
-            error: "INTERNAL SERVER ERROR",
-          });
-      } else
-        console.error({
-          message: "WEB2 Publish Error",
-          error: "NOT 200 responee",
-        });
-    });
+      });
+  } catch (error) {
+    console.error(error);
+  }
 };
 
 const bookUploadToQueue = async ({

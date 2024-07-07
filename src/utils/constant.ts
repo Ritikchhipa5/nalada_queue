@@ -1,11 +1,12 @@
 import path from "path";
 import { ethers } from "ethers";
-// export const NALNDA_SERVER_URL = "http://localhost:8081";
+// export const NALNDA_SERVER_URL = "http://localhost:8080";
 export const NALNDA_SERVER_URL = "https://server.nalnda.com";
 export const NALNDA_TOKEN_CONTRACT_ADDRESS =
   "0xf1be3Ff58d52154830a27369d6E16235Ae0e8d34";
 export const MARKET_CONTRACT_ADDRESS =
-  "0xDEEAc3F1dcEd043e3831C01a4a6855cDe443f5A9";
+  "0x7D9D0EFBAE2366C59DF8f912e41c17cc2779D0fF";
+export const USDC_ADDRESS = "0xba3482BaABf0e9F68Fe7a62c957619771162fB92";
 export const UTILS = {};
 
 export const QUEUES = {
