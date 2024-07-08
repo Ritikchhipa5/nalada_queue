@@ -346,7 +346,7 @@ const processToGetBooksInfo = async ({ bookFiles }) => {
               const secondaryFromInDays = Math.round(
                 moment.duration(moment().add(1, "days").diff(moment())).asDays()
               );
-              const price = "5";
+              const price = String(Math.floor(Math.random() * 10));
               console.log({ bookUrl });
               console.log({ coverUrl });
               console.log({ secondaryFromInDays });
