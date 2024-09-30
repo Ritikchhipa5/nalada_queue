@@ -18,15 +18,15 @@ const main = async () => {
   // await rabbitMqClient.addQueue(QUEUES.FILTERS_BATCH_PROCESSING_BOOKS_QUEUE);
   // await rabbitMqClient.addQueue(QUEUES.BATCH_BOOKS_ADD_IN_DATABASE_QUEUE);
 
-  app.get("/send", async (req, res) => {
-    await booksAddServices();
-    return res.send("Hello, Send to DB!");
-  });
+  // await booksAddServices();
+  // app.get("/send", async (req, res) => {
+  //   return res.send("Hello, Send to DB!");
+  // });
 
-  app.get("/send-db", async (req, res) => {
-    await rabbitMqClient.sendBookToDatabase(QUEUES.BOOK_BATCH_PROCESSING_QUEUE);
-    return res.send("Hello, Send to DB!");
-  });
+  await rabbitMqClient.sendBookToDatabase(QUEUES.BOOK_BATCH_PROCESSING_QUEUE);
+  // app.get("/send-db", async (req, res) => {
+  //   return res.send("Hello, Send to DB!");
+  // });
 
   app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);

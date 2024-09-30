@@ -15,6 +15,7 @@ import {
   QUEUES,
   temPath,
   tempJsonPath,
+  usdcContract,
   UserState,
 } from "../utils/constant";
 import { bookDownload } from "../utils/bookDownload";
@@ -334,7 +335,7 @@ const processToGetBooksInfo = async ({ bookFiles }) => {
                 headers: {
                   "user-id": UserState.user.uid,
                   address: UserState.user.wallet,
-                  authorization: `Bearer ${UserState.tokens.acsTkn.tkn}`,
+                  authorization: `Bearer ${UserState.tokens.acsTkn.tkn?.trim()}`,
                   ...formData.getHeaders(),
                 },
               }
@@ -383,9 +384,14 @@ const processToGetBooksInfo = async ({ bookFiles }) => {
               const genres = book.bookshelf;
               console.log("starting txn");
 
+              const usdtDecimal = await usdcContract.decimals();
+              console.log(usdtDecimal, "usdtDecimalusdtDecimalusdtDecimal");
+
               books._author.push(UserState.user.wallet);
               books._coverURI.push(coverUrl);
-              books._initialPrice.push(ethers.utils.parseUnits(price, 6));
+              books._initialPrice.push(
+                ethers.utils.parseUnits(price, usdtDecimal)
+              );
               books._daysForSecondarySales.push(91);
               books._lang.push(1);
               books._genre.push([1, 2, 5]);
@@ -420,18 +426,25 @@ const processToGetBooksInfo = async ({ bookFiles }) => {
     books._genre
   );
   console.log(booksAddresses);
+  const txOptions = {
+    maxPriorityFeePerGas: ethers.utils.parseUnits("25", "gwei"), // Set priority fee (tip) to 25 Gwei
+    maxFeePerGas: ethers.utils.parseUnits("100", "gwei"), // Set max fee per gas
+  };
+
   let transaction = await marketplaceContract.createNewBooks(
     books._author,
     books._coverURI,
     books._initialPrice,
     books._daysForSecondarySales,
     books._lang,
-    books._genre
+    books._genre,
+    txOptions
   );
 
   let tx = await transaction.wait();
 
   // console.log(booksAddresses, "booksAddresses");
+
   console.log({ tx });
   for (let index = 0; index < booksAddresses.length; index++) {
     const bookAddress = booksAddresses[index];
